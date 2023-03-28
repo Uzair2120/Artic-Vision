@@ -321,14 +321,13 @@
 }
 
 .our-para p{
-    font-size: 17px;
-    font-family: 'Montserrat' , sans-serif;
+    font-size: 18px;
+    font-family: 'Maven pro' , sans-serif;
     line-height: 30px;
 }
 
 .for-ourproducts2{
     /* border: 2px solid blue; */
-    height: 480px;
     margin-top: 50px;
     padding: 0px 30px;
 }
@@ -351,6 +350,7 @@
     height: 100%;
     overflow: hidden;
     position: relative;
+    height: 480px;
 }
 
 .in-ourrow img{
@@ -391,6 +391,19 @@
     color: #3b3e45;
 }
 
+.for-ourproducts3{
+    /* border: 2px solid blue; */
+    height: 480px;
+    margin-top: 50px;
+    padding: 0px 30px;
+}
+
+.our-row3{
+    /* border: 2px solid green; */
+    height: 100%;
+    padding: 0;
+    justify-content: center;
+}
 
 
 

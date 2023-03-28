@@ -135,7 +135,47 @@
     
 
 
+    /* our products section  */
+    .our-headings h1{
+        font-size: 35px;
+    }
 
+    .our-para p {
+        font-size: 16px;
+    }
 
+    .our-rowcontent h1{
+        font-size: 35px;
+    }
+
+    .our-rowcontent p{
+        font-size: 16px;
+    }
+
+    .our-rowcontent a{
+        font-size: 14px;
+    }
+
+    .for-ourproducts2{
+        padding: 0;
+    }
+
+    .for-ourproducts3{
+        padding: 0;
+        margin-top: 0;
+    }
+
+    .our-row {
+        padding: 0px 20px;
+    }
+
+    .our-content{
+        margin-top: 25px;
+        padding: 0;
+    }
+
+    #main3{
+        padding-top: 70px;
+    }
 
 }

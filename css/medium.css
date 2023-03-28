@@ -111,4 +111,27 @@
     .sub-ul li:hover {
         background-color: #eef1f3;
     }
+
+
+
+    /* our products section  */
+    .our-headings h1{
+        font-size: 35px;
+    }
+
+    .our-para p {
+        font-size: 16px;
+    }
+
+    .our-rowcontent h1{
+        font-size: 35px;
+    }
+
+    .our-rowcontent p{
+        font-size: 16px;
+    }
+
+    .our-rowcontent a{
+        font-size: 14px;
+    }
 }

@@ -6,4 +6,26 @@
     .for-icons i {
         margin: 5px 15px;
     }
+
+
+    /* our products section  */
+    .our-headings h1{
+        font-size: 35px;
+    }
+
+    .our-para p {
+        font-size: 16px;
+    }
+
+    .our-rowcontent h1{
+        font-size: 35px;
+    }
+
+    .our-rowcontent p{
+        font-size: 16px;
+    }
+
+    .our-rowcontent a{
+        font-size: 14px;
+    }
 }
