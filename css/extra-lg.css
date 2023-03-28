@@ -1,0 +1,9 @@
+@media screen and (min-width:1200px) and (max-width:1400px) {
+    .for-menu>ul>li {
+        padding: 10px 17px;
+    }
+
+    .for-icons i {
+        margin: 5px 15px;
+    }
+}

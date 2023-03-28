@@ -1,0 +1,102 @@
+@media screen and (min-width:576px) and (max-width:767px) {
+    .for-logo img {
+        width: 115px;
+    }
+
+    #main1{
+        padding: 0px 15px;
+    }
+    .for-mainhead h1 {
+        font-size: 50px;
+    }
+
+    .para p {
+        font-size: 16px;
+    }
+
+    .for-mainhead {
+        margin-left: 30px;
+    }
+
+    .for-maincontent {
+        top: 25%;
+    }
+
+    .for-menu {
+        /* display: none; */
+        position: absolute;
+        left: -100%;
+        top: 90px;
+        padding: 0;
+    }
+
+    .for-menu ul {
+        display: block;
+        background-color: #EDEDEF;
+        padding: 0;
+        border-top: 1px solid rgba(182, 182, 182, 0.842);
+    }
+
+    .for-menu-on {
+        left: 0;
+    }
+
+    .for-menu>ul>li>a {
+        width: 100%;
+        margin-left: 20px;
+    }
+
+    .for-menu>ul>li>a>i {
+        float: right;
+        margin-right: 25px;
+
+    }
+
+    #magnify {
+        display: none;
+    }
+
+    .btn {
+        display: block;
+        /* background-color: black; */
+        height: 25px;
+        width: 25px;
+    }
+
+    .for-icons i {
+        margin: 5px 15px;
+        font-size: 24px;
+    }
+
+    .for-icons {
+        padding: 0;
+    }
+
+    .for-menu>ul>li {
+        display: block;
+        position: static;
+        height: auto;
+        padding: 10px 0px;
+        border-bottom: 1px solid rgba(182, 182, 182, 0.842);
+    }
+
+    .sub-about {
+        position: static;
+        margin-bottom: -10px;
+        border: none;
+        width: 100%;
+        display: none;
+    }
+
+    .sub-ul li{
+        padding :8px 40px;
+    }
+
+    .sub-ul li:not(:last-child){
+        border-bottom: 1px solid rgba(182, 182, 182, 0.842);
+    }
+
+    .sub-ul li:hover {
+        background-color: #eef1f3;
+    }
+}
