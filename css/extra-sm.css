@@ -125,6 +125,10 @@
         display: none;
     }
 
+    .for-menu ul li:hover .sub-about {
+        display: block;
+    }
+
     .active-btn::after {
         transform: rotate(45deg) translate(-3px, 1px);
     }
@@ -176,6 +180,20 @@
 
     #main3{
         padding-top: 70px;
+    }
+
+    .our-rows{
+        padding: 0;
+    }
+
+    .our-row2{
+        margin: 0;
+        width: 100%;
+    }
+
+    .our-row3{
+        margin: 0;
+        width: 100%;
     }
 
 }

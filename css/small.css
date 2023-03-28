@@ -88,6 +88,10 @@
         display: none;
     }
 
+    .for-menu ul li:hover .sub-about {
+        display: block;
+    }
+
     .sub-ul li{
         padding :8px 40px;
     }
@@ -142,5 +146,19 @@
     .for-ourproducts3{
         padding: 0;
         margin-top: 0;
+    }
+
+    .our-rows{
+        padding: 0;
+    }
+
+    .our-row2{
+        margin: 0;
+        width: 100%;
+    }
+
+    .our-row3{
+        margin: 0;
+        width: 100%;
     }
 }

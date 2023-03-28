@@ -62,11 +62,11 @@
 .sub-about {
     border-top: 3px solid #53A57D;
     position: absolute;
-    display: none;
     z-index: 99;
-    top: 82px;
+    top: 60px;
     width: 220px;
     background-color: white;
+    visibility: hidden;
 }
 
 .sub-ul {
@@ -99,7 +99,9 @@
 }
 
 .for-menu ul li:hover .sub-about {
-    display: block;
+    transition: all .5s;
+    top: 82px;
+    visibility: visible;
 }
 
 .for-menu>ul>li>a {
