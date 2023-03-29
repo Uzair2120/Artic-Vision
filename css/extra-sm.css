@@ -108,11 +108,11 @@
         border-bottom: 1px solid rgba(182, 182, 182, 0.842);
     }
 
-    .sub-ul li{
-        padding :8px 40px;
+    .sub-ul li {
+        padding: 8px 40px;
     }
 
-    .sub-ul li:not(:last-child){
+    .sub-ul li:not(:last-child) {
         border-bottom: 1px solid rgba(182, 182, 182, 0.842);
 
     }
@@ -136,11 +136,11 @@
     .sub-ul li:hover {
         background-color: #eef1f3;
     }
-    
+
 
 
     /* our products section  */
-    .our-headings h1{
+    .our-headings h1 {
         font-size: 35px;
     }
 
@@ -148,23 +148,23 @@
         font-size: 16px;
     }
 
-    .our-rowcontent h1{
+    .our-rowcontent h1 {
         font-size: 35px;
     }
 
-    .our-rowcontent p{
+    .our-rowcontent p {
         font-size: 16px;
     }
 
-    .our-rowcontent a{
+    .our-rowcontent a {
         font-size: 14px;
     }
 
-    .for-ourproducts2{
+    .for-ourproducts2 {
         padding: 0;
     }
 
-    .for-ourproducts3{
+    .for-ourproducts3 {
         padding: 0;
         margin-top: 0;
     }
@@ -173,27 +173,106 @@
         padding: 0px 20px;
     }
 
-    .our-content{
+    .our-content {
         margin-top: 25px;
         padding: 0;
     }
 
-    #main3{
+    #main3 {
         padding-top: 70px;
     }
 
-    .our-rows{
+    .our-rows {
         padding: 0;
     }
 
-    .our-row2{
+    .our-row2 {
         margin: 0;
         width: 100%;
     }
 
-    .our-row3{
+    .our-row3 {
         margin: 0;
         width: 100%;
     }
 
+    /* our products section ends here */
+
+    /* our services section  */
+
+    #forth {
+        padding-top: 40px;
+    }
+
+    .services-row {
+        padding: 0px 20px;
+    }
+
+    .services-headings h1 {
+        font-size: 35px;
+    }
+
+    .services-para p {
+        font-size: 15px;
+        margin-top: -16px;
+    }
+
+    .services-para {
+        width: 100%;
+        /* position: absolute;
+            top: 150px; */
+    }
+
+    .services-headpara h1 {
+        font-size: 35px;
+    }
+
+    .services-cols {
+        padding: 0px 5px;
+    }
+
+    .services-cols:not(:first-child) {
+        margin-top: 35px;
+    }
+
+    .for-ourservices2 {
+        top: 36%;
+    }
+
+    .for-ourservices2 {
+        padding: 0px 25px;
+    }
+
+    #main4 {
+        height: 950px;
+    }
+
+    .services-headpara {
+        left: 40px;
+    }
+
+    .services-headpara p {
+        text-align: center;
+    }
+
+    .services-content {
+        /* border: 2px solid red; */
+        height: 100%;
+        position: absolute;
+        top: 150px;
+        padding: 0 20px;
+        left: 0;
+    }
+
+    .services-headpara2 h1 {
+        font-size: 35px;
+    }
+
+    .services-headpara2 p {
+        font-family: 'Maven Pro', sans-serif;
+        font-size: 16px;
+        color: white;
+    }
+
+    /* our services section ends here  */
 }

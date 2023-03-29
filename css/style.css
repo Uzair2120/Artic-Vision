@@ -77,7 +77,6 @@
 .sub-ul li {
     list-style: none;
     padding: 8px 20px;
-    /* border-bottom: 1px solid rgba(182, 182, 182, 0.842); */
     cursor: pointer;
 }
 
@@ -270,84 +269,74 @@
 
 
 /* for our products section  */
-#main3{
+#main3 {
     /* border: 2px solid red; */
     padding-top: 150px;
     padding-bottom: 20px;
 }
 
-
-
-.for-ourproducts{
-    /* border: 2px solid blue; */
-}
-
-.our-row{
+.our-row {
     /* border: 2px solid green; */
-    padding: 0px 70px;
+    padding: 0px 90px;
 }
 
-.our-head{
+.our-head {
     /* border: 2px solid goldenrod; */
     display: flex;
     align-items: start;
     padding: 0;
 }
 
-.our-content{
+.our-content {
     /* border: 2px solid black; */
     display: flex;
-    align-items: center;
+    align-items: start;
 }
 
-.our-headings{
-    /* border: 2px solid brown; */
-}
-
-.our-headings span{
-    font-family: 'Poppins' , sans-serif;
+.our-headings span {
+    font-family: 'Poppins', sans-serif;
     text-transform: uppercase;
     color: rgb(110, 110, 110);
 }
 
-.our-headings h1{
-    font-family: 'Bentham' , serif;
+.our-headings h1 {
+    font-family: 'Bentham', serif;
     font-size: 40px;
     margin-top: 5px;
 }
 
-.our-para{
+.our-para {
     /* border: 2px solid brown; */
     width: 95%;
     color: rgb(110, 110, 110);
 }
 
-.our-para p{
+.our-para p {
     font-size: 18px;
-    font-family: 'Maven pro' , sans-serif;
+    font-family: 'Maven pro', sans-serif;
     line-height: 30px;
 }
 
-.for-ourproducts2{
+.for-ourproducts2 {
     /* border: 2px solid blue; */
     margin-top: 50px;
     padding: 0px 30px;
 }
 
-.our-row2{
+.our-row2 {
     /* border: 2px solid green; */
     height: 100%;
     padding: 0;
     justify-content: center;
 }
 
-.our-rows{
+.our-rows {
     /* border: 2px solid black; */
     height: 100%;
     padding: 0px 10px;
 }
 
-.in-ourrow{
+.in-ourrow {
     /* border: 2px solid rgb(117, 1, 111); */
     height: 100%;
     overflow: hidden;
@@ -355,18 +344,18 @@
     height: 480px;
 }
 
-.in-ourrow img{
+.in-ourrow img {
     height: 100%;
     width: 100%;
     cursor: pointer;
     transition: transform 1s;
 }
 
-.in-ourrow:hover.in-ourrow img{
+.in-ourrow:hover.in-ourrow img {
     transform: scale(1.1);
 }
 
-.our-rowcontent{
+.our-rowcontent {
     position: absolute;
     z-index: 3;
     top: 10px;
@@ -375,42 +364,227 @@
     margin-top: 50px;
 }
 
-.our-rowcontent h1{
-    font-family: 'Bentham' , serif;
+.our-rowcontent h1 {
+    font-family: 'Bentham', serif;
 }
 
-.our-rowcontent p{
-    font-family: 'Maven pro' , sans-serif;
+.our-rowcontent p {
+    font-family: 'Maven pro', sans-serif;
     color: #747474;
     font-size: 18px;
     margin-bottom: 25px;
 }
 
-.our-rowcontent a{
-    font-family: 'PT sans' , sans-serif;
+.our-rowcontent a {
+    font-family: 'PT sans', sans-serif;
     text-decoration: none;
     font-weight: bold;
     color: #3b3e45;
 }
 
-.for-ourproducts3{
+.for-ourproducts3 {
     /* border: 2px solid blue; */
-    height: 480px;
     margin-top: 50px;
     padding: 0px 30px;
 }
 
-.our-row3{
+.our-row3 {
     /* border: 2px solid green; */
     height: 100%;
     padding: 0;
     justify-content: center;
 }
+/* our products section ends here */
+
+
+
+/* our services section starts here */
+
+#main4{
+    /* border: 2px solid red; */
+    height: 500px;
+    position: relative;
+}
+
+#forth{
+    /* border: 2px solid blue; */
+    height: 100%;
+    background-color: #3C3E42;
+    padding-top: 90px;
+}
+
+.for-ourservices{
+    /* border: 2px solid green; */
+    height: 100%;
+}
+
+.services-row{
+    /* border: 2px solid yellowgreen; */
+    height: 100%;
+    padding: 0px 90px;
+}
+
+.services-head{
+    /* border: 2px solid red; */
+    height: 100%;
+    padding: 0;
+}
+
+.services-content{
+    /* border: 2px solid red; */
+    height: 100%;
+}
+
+.services-headings span {
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+}
+
+.services-headings h1 {
+    font-family: 'Bentham', serif;
+    font-size: 40px;
+    margin-top: 5px;
+    color: white;
+}
+
+.services-para {
+    /* border: 2px solid brown; */
+    width: 95%;
+    color: rgb(255, 255, 255);
+}
+
+.services-para p {
+    font-size: 18px;
+    font-family: 'Maven pro', sans-serif;
+    line-height: 30px;
+}
+
+.for-ourservices2 {
+    /* border: 2px solid rgb(0, 0, 0); */
+    position: absolute;
+    top: 45%;
+    padding: 0px 20px;
+}
+
+.services-cols{
+    /* border: 2px solid yellow; */
+    padding: 0px 20px;
+}
+
+.in-services-cols{
+    /* border: 2px solid rgb(19, 84, 104); */
+    height: 400px;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.mainbox{
+    position: relative;
+}
+
+.box-content{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    transform-style: preserve-3d;
+    transition: all 0.5s ease;
+}
+
+.mainbox:hover .box-content{
+    transform: rotateY(180deg);
+}
+
+.the-front{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    overflow: hidden;
+    border-radius: 5px;
+}
+.the-back{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    transform: rotateY(180deg);
+    overflow: hidden;
+    border-radius: 5px;
+}
+  
+.the-front img{
+    background-position: center;
+    height: 120%;
+    width: 100%;
+    border-radius: 5px 5px 5px 5px;
+}
+.the-back img{
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    border-radius:  5px 5px 5px 5px;
+}
+
+.services-headpara{
+    position: absolute;
+    top: 30px;
+    left: 50px;
+}
+
+.services-headpara h1{
+    font-family: 'Bentham', serif;
+    padding-right: 80px;
+    line-height: 35px;
+    margin-bottom: 15px;
+}
+
+.services-headpara p{
+    font-family: 'Maven Pro' , sans-serif;
+    text-transform: capitalize;
+    text-align: end;
+    margin-top: -15px;
+    margin-right: 80px;
+}
+
+.services-headpara2{
+    position: absolute;
+    top: 30px;
+    left: 50px;
+}
+
+.services-headpara2 h1{
+    font-family: 'Bentham', serif;
+    color: white;
+}
+
+.services-headpara2 p{
+    font-family: 'Maven Pro' , sans-serif;
+    font-size: 18px;
+    color: white;
+    padding-right: 40px;
+    margin-bottom: 40px;
+}
+
+.services-headpara2 a{
+    text-decoration: none;
+    color: aliceblue;
+    font-family: 'PT sans' sans-serif;
+    font-weight: 500;
+}
+
+
+
+
+
+
+/* our services section ends here */
+
 
 
 
 
 .eee {
     height: 1000px;
-    background-color: #f4f4f5;
+    background-color: #babaf0;
 }

@@ -42,4 +42,33 @@
     .our-rowcontent a{
         font-size: 14px;
     }
+    /* our products section ends here  */
+
+
+
+/* our services section  */
+    .services-headings h1 {
+        font-size: 35px;
+    }
+
+    .services-para p {
+        font-size: 16px;
+    }
+
+    .services-para{
+        width: 102%;
+    }
+
+    .services-headpara h1{
+        font-size: 35px;
+    }
+
+    .services-cols{
+        padding: 0px 5px;
+    }
+
+    .for-ourservices2{
+        top: 50%;
+    }
+    /* our services section ends here  */
 }
