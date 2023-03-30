@@ -207,15 +207,19 @@
 
     /* commitment section starts here */
 
-.commitment-headings h1 {
+    .commitment-headings h1 {
         font-size: 35px;
+    }
+
+    #main5 {
+        margin-top: 200px;
     }
 
     .commitment-para p {
         font-size: 16px;
     }
 
-    .for-com-headings h1{
+    .for-com-headings h1 {
         font-size: 35px;
     }
 
@@ -223,20 +227,64 @@
         font-size: 16px;
     }
 
-    .commitment-row{
+    .commitment-row {
         padding: 0px 80px;
+        padding-right: 25px;
     }
 
-    .commitment-content{
+    .commitment-content {
         padding: 0;
     }
 
-    .commitment-row2{
+    .commitment-row2 {
         padding: 0;
     }
 
-    .commitment-rows{
+    .commitment-rows {
         padding: 0px 20px;
     }
+
     /* commitment section ends here */
+
+
+
+    /* newsletter section here  */
+    .newsletter-headings h1 {
+        font-size: 35px;
+    }
+
+    .newsletter-para p {
+        font-size: 16px;
+    }
+
+    .newsletter-headings h1 {
+        font-size: 35px;
+    }
+
+    .newsletter-headings p {
+        font-size: 16px;
+    }
+
+    /* newsletter ends here  */
+
+
+
+
+    /* testimonial section starts here */
+    .testimonial-headings h1 {
+        font-size: 35px;
+    }
+
+    .testimonial-para p {
+        font-size: 16px;
+    }
+
+    .testimonial-headings h1 {
+        font-size: 35px;
+    }
+
+    .testimonial-headings p {
+        font-size: 16px;
+    }
+    /* testimonial section ends here */
 }

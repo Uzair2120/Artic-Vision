@@ -17,7 +17,6 @@
 }
 
 .nav-container {
-    /* border: 2px solid blue; */
     height: 90px;
 }
 
@@ -26,7 +25,6 @@
 }
 
 .for-logo {
-    /* border: 2px solid green; */
     height: 100%;
     padding: 0;
 }
@@ -37,7 +35,6 @@
 }
 
 .for-menu {
-    /* border: 2px solid black; */
     justify-content: end;
     transition: 0.4s;
 }
@@ -121,7 +118,6 @@
 }
 
 .for-icons {
-    /* border: 2px solid yellow; */
     align-items: center;
     display: flex;
     justify-content: end;
@@ -150,14 +146,12 @@
 }
 
 .for-maincontent {
-    /* border: 2px solid green; */
     position: absolute;
     top: 35%;
     width: 100%;
 }
 
 .for-mainhead {
-    /* border: 2px solid yellowgreen; */
     margin-left: 120px;
 }
 
@@ -168,7 +162,6 @@
 }
 
 .para {
-    /* border: 2px solid black; */
     width: 400px;
     margin-top: 40px;
 }
@@ -235,7 +228,6 @@
     margin: 0px 10px;
     background: transparent;
     padding: 0;
-    /* border: 1px solid black; */
 }
 
 .in-btn,
@@ -270,25 +262,21 @@
 
 /* for our products section  */
 #main3 {
-    /* border: 2px solid red; */
     padding-top: 150px;
     padding-bottom: 20px;
 }
 
 .our-row {
-    /* border: 2px solid green; */
     padding: 0px 90px;
 }
 
 .our-head {
-    /* border: 2px solid goldenrod; */
     display: flex;
     align-items: start;
     padding: 0;
 }
 
 .our-content {
-    /* border: 2px solid black; */
     display: flex;
     align-items: start;
 }
@@ -306,7 +294,6 @@
 }
 
 .our-para {
-    /* border: 2px solid brown; */
     width: 95%;
     color: rgb(110, 110, 110);
 }
@@ -318,26 +305,22 @@
 }
 
 .for-ourproducts2 {
-    /* border: 2px solid blue; */
     margin-top: 50px;
     padding: 0px 30px;
 }
 
 .our-row2 {
-    /* border: 2px solid green; */
     height: 100%;
     padding: 0;
     justify-content: center;
 }
 
 .our-rows {
-    /* border: 2px solid black; */
     height: 100%;
     padding: 0px 10px;
 }
 
 .in-ourrow {
-    /* border: 2px solid rgb(117, 1, 111); */
     height: 100%;
     overflow: hidden;
     position: relative;
@@ -359,7 +342,6 @@
     position: absolute;
     z-index: 3;
     top: 10px;
-    /* border: 2px solid red; */
     margin-left: 40px;
     margin-top: 50px;
 }
@@ -383,55 +365,48 @@
 }
 
 .for-ourproducts3 {
-    /* border: 2px solid blue; */
     margin-top: 50px;
     padding: 0px 30px;
 }
 
 .our-row3 {
-    /* border: 2px solid green; */
     height: 100%;
     padding: 0;
     justify-content: center;
 }
+
 /* our products section ends here */
 
 
 
 /* our services section starts here */
 
-#main4{
-    /* border: 2px solid red; */
+#main4 {
     height: 500px;
     position: relative;
 }
 
-#forth{
-    /* border: 2px solid blue; */
+#forth {
     height: 100%;
     background-color: #3C3E42;
     padding-top: 90px;
 }
 
-.for-ourservices{
-    /* border: 2px solid green; */
+.for-ourservices {
     height: 100%;
 }
 
-.services-row{
-    /* border: 2px solid yellowgreen; */
+.services-row {
     height: 100%;
     padding: 0px 90px;
 }
 
-.services-head{
-    /* border: 2px solid red; */
+.services-head {
     height: 100%;
     padding: 0;
 }
 
-.services-content{
-    /* border: 2px solid red; */
+.services-content {
     height: 100%;
 }
 
@@ -449,7 +424,6 @@
 }
 
 .services-para {
-    /* border: 2px solid brown; */
     width: 95%;
     color: rgb(255, 255, 255);
 }
@@ -461,29 +435,26 @@
 }
 
 .for-ourservices2 {
-    /* border: 2px solid rgb(0, 0, 0); */
     position: absolute;
     top: 45%;
     padding: 0px 20px;
 }
 
-.services-cols{
-    /* border: 2px solid yellow; */
+.services-cols {
     padding: 0px 20px;
 }
 
-.in-services-cols{
-    /* border: 2px solid rgb(19, 84, 104); */
+.in-services-cols {
     height: 400px;
     cursor: pointer;
     overflow: hidden;
 }
 
-.mainbox{
+.mainbox {
     position: relative;
 }
 
-.box-content{
+.box-content {
     position: absolute;
     height: 100%;
     width: 100%;
@@ -491,11 +462,11 @@
     transition: all 0.5s ease;
 }
 
-.mainbox:hover .box-content{
+.mainbox:hover .box-content {
     transform: rotateY(180deg);
 }
 
-.the-front{
+.the-front {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -503,7 +474,8 @@
     overflow: hidden;
     border-radius: 5px;
 }
-.the-back{
+
+.the-back {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -512,61 +484,62 @@
     overflow: hidden;
     border-radius: 5px;
 }
-  
-.the-front img{
+
+.the-front img {
     background-position: center;
     height: 120%;
     width: 100%;
     border-radius: 5px 5px 5px 5px;
 }
-.the-back img{
+
+.the-back img {
     background-position: center;
     height: 100%;
     width: 100%;
-    border-radius:  5px 5px 5px 5px;
+    border-radius: 5px 5px 5px 5px;
 }
 
-.services-headpara{
+.services-headpara {
     position: absolute;
     top: 30px;
     left: 50px;
 }
 
-.services-headpara h1{
+.services-headpara h1 {
     font-family: 'Bentham', serif;
     padding-right: 80px;
     line-height: 35px;
     margin-bottom: 15px;
 }
 
-.services-headpara p{
-    font-family: 'Maven Pro' , sans-serif;
+.services-headpara p {
+    font-family: 'Maven Pro', sans-serif;
     text-transform: capitalize;
     text-align: end;
     margin-top: -15px;
     margin-right: 80px;
 }
 
-.services-headpara2{
+.services-headpara2 {
     position: absolute;
     top: 30px;
     left: 50px;
 }
 
-.services-headpara2 h1{
+.services-headpara2 h1 {
     font-family: 'Bentham', serif;
     color: white;
 }
 
-.services-headpara2 p{
-    font-family: 'Maven Pro' , sans-serif;
+.services-headpara2 p {
+    font-family: 'Maven Pro', sans-serif;
     font-size: 18px;
     color: white;
     padding-right: 40px;
     margin-bottom: 40px;
 }
 
-.services-headpara2 a{
+.services-headpara2 a {
     text-decoration: none;
     color: aliceblue;
     font-family: 'PT sans' sans-serif;
@@ -578,32 +551,27 @@
 
 
 
- /* commitment section starts here  */
-#main5{
-    /* border: 2px solid red; */
+/* commitment section starts here  */
+#main5 {
     margin-top: 270px;
     margin-bottom: 50px;
 }
 
-.for-commitment{
-    /* border: 2px solid green; */
+.for-commitment {
     height: 100%;
 }
 
-.commitment-row{
-    /* border: 2px solid yellowgreen; */
+.commitment-row {
     height: 100%;
     padding: 0px 90px;
 }
 
-.commitment-head{
-    /* border: 2px solid red; */
+.commitment-head {
     height: 100%;
     padding: 0;
 }
 
-.commitment-content{
-    /* border: 2px solid red; */
+.commitment-content {
     height: 100%;
 }
 
@@ -621,7 +589,6 @@
 }
 
 .commitment-para {
-    /* border: 2px solid brown; */
     width: 100%;
     color: rgb(110, 110, 110);
 }
@@ -632,58 +599,196 @@
     line-height: 30px;
 }
 
-.for-commitment2{
-    /* height: 500px; */
-}
 
-.commitment-row2{
-    /* border: 2px solid blue; */
+.commitment-row2 {
     height: 100%;
     padding: 0px 10px;
     margin-top: 90px;
 }
 
-.commitment-rows{
-    /* border :2px solid black; */
+.commitment-rows {
     padding: 0px 30px;
 }
 
-.in-commitmentrows{
-    /* border: 2px solid goldenrod; */
+.in-commitmentrows {
     height: 100%;
     text-align: center;
 }
 
-.for-com-icons{
-    /* border: 1px solid black; */
+.for-com-icons {
     display: inline-block;
 }
 
-.for-com-headings h1{
-    font-family: 'Bentham' ,  sans-serif;
+.for-com-headings h1 {
+    font-family: 'Bentham', sans-serif;
     color: #333333;
     margin: 40px 0px;
 }
 
-.for-com-headings p{
-    font-family: 'Maven Pro' ,sans-serif;
+.for-com-headings p {
+    font-family: 'Maven Pro', sans-serif;
     font-size: 18px;
     color: rgb(110, 110, 110);
 }
 
-.com2{
+.com2 {
     animation-delay: .2s;
 }
-.com3{
+
+.com3 {
     animation-delay: .4s;
 }
-.com4{
+
+.com4 {
     animation-delay: .6s;
 }
 
+/* commitment section ends here  */
 
 
- /* commitment section ends here  */
+
+/* newsletter section here  */
+#main6 {
+    /* border: 2px solid black; */
+    background-color: #3B3E45;
+}
+
+#sixth {
+    /* border: 2px solid red; */
+    height: 100%;
+}
+
+.for-newsletter {
+    /* border: 2px solid blue; */
+    height: 100%;
+}
+
+.newsletter-row {
+    /* border: 2px solid green; */
+    height: 100%;
+    padding: 48px 70px;
+}
+
+.newsletter-headings span {
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+}
+
+.newsletter-headings h1 {
+    font-family: 'Bentham', serif;
+    font-size: 40px;
+    margin-top: 5px;
+    color: white;
+}
+
+.newsletter-content {
+    padding: 0;
+}
+
+.newsletter-para {
+    width: 100;
+    color: rgb(255, 255, 255);
+}
+
+.newsletter-para p {
+    font-size: 18px;
+    font-family: 'Maven pro', sans-serif;
+}
+
+.newsletter-para input {
+    background: transparent;
+    outline: none;
+    border: 1px solid whitesmoke;
+    padding: 5px 20px;
+    border-radius: 20px 0px 0px 20px;
+    width: 290px;
+    font-family: 'Maven pro', sans-serif;
+    color: rgb(194, 193, 193);
+    ;
+}
+
+::-webkit-input-placeholder {
+    color: rgb(150, 150, 150);
+}
+
+.newsletter-para button {
+    background-color: white;
+    padding: 6px 15px;
+    font-family: 'Maven pro', sans-serif;
+    border: none;
+    outline: none;
+    border-radius: 0px 20px 20px 0px;
+    margin-left: -10px;
+}
+
+.newsletter-para button:hover {
+    background-color: #2d2f33;
+    color: whitesmoke;
+}
+
+/* newsletter ends here  */
+
+
+
+/* testimonial section starts here */
+
+#seventh {
+    /* border: 2px solid red; */
+    height: 100%;
+}
+
+.for-testimonial {
+    /* border: 2px solid blue; */
+    height: 100%;
+}
+
+.testimonial-row {
+    /* border: 2px solid green; */
+    height: 100%;
+    padding: 90px 70px;
+}
+
+.testimonial-headings span {
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    color: rgb(110, 110, 110);
+}
+
+.testimonial-headings h1 {
+    font-family: 'Bentham', serif;
+    font-size: 40px;
+    margin-top: 5px;
+    color: #333333;
+}
+
+.testimonial-content {
+    padding: 0;
+}
+
+.testimonial-para {
+    width: 101%;
+    color: rgb(255, 255, 255);
+}
+
+.testimonial-para p {
+    font-size: 18px;
+    font-family: 'Maven pro', sans-serif;
+    line-height: 30px;
+    color: #333333;
+    line-height: 23px;
+}
+
+.testimonial-para strong{
+    color: black;
+    text-transform: uppercase;
+    font-family: 'Maven pro', sans-serif;
+}
+
+.testimonial-para img{
+    margin-bottom: 20px;
+}
+/* testimonial section ends here */
 
 
 

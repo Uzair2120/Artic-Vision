@@ -137,7 +137,7 @@
         background-color: #eef1f3;
     }
 
-    .tap-btn{
+    .tap-btn {
         left: 44%;
     }
 
@@ -292,7 +292,7 @@
         font-size: 16px;
     }
 
-    .for-com-headings h1{
+    .for-com-headings h1 {
         font-size: 35px;
         margin: 20px 0px;
     }
@@ -301,30 +301,98 @@
         font-size: 16px;
     }
 
-    .commitment-row{
+    .commitment-row {
         padding: 0px 20px;
     }
-    
-    .commitment-rows{
+
+    .commitment-rows {
         padding: 0;
         margin-top: 40px;
     }
 
-    #main5{
+    #main5 {
         margin-top: 700px;
     }
 
-    .commitment-para{
+    .commitment-para {
         padding: 0;
         margin-top: 15px;
     }
 
-    .commitment-row2{
+    .commitment-row2 {
         margin-top: 10px;
     }
 
-    .commitment-content{
+    .commitment-content {
         padding: 0;
     }
+
     /* commitment section ends here */
+
+
+
+    /* newsletter section here  */
+    .newsletter-headings h1 {
+        font-size: 35px;
+    }
+
+    .newsletter-para p {
+        font-size: 16px;
+        margin-top: 30px;
+    }
+
+    .newsletter-headings h1 {
+        font-size: 35px;
+    }
+
+    .newsletter-headings p {
+        font-size: 16px;
+    }
+
+    .newsletter-row {
+        padding: 48px 20px;
+    }
+
+    .newsletter-head {
+        padding: 0;
+    }
+
+    .newsletter-para input{
+        width: 65%;
+    }
+
+    /* newsletter ends here  */
+
+
+
+
+    /* testimonial section starts here */
+    .testimonial-headings h1 {
+        font-size: 35px;
+    }
+
+    .testimonial-para p {
+        font-size: 16px;
+    }
+
+    .testimonial-headings h1 {
+        font-size: 35px;
+    }
+
+    .testimonial-headings p {
+        font-size: 16px;
+    }
+
+    .testimonial-row {
+        padding: 40px 20px;
+    }
+
+    .testimonial-head{
+        padding: 0;
+    } 
+
+    .testimonial-para{
+        margin-top: 30px;
+    }
+    /* testimonial section ends here */
 }

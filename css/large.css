@@ -85,7 +85,7 @@
         font-size: 16px;
     }
 
-    .for-com-headings h1{
+    .for-com-headings h1 {
         font-size: 35px;
     }
 
@@ -94,4 +94,46 @@
     }
 
     /* commitment section ends here */
+
+
+
+
+    /* newsletter section here  */
+    .newsletter-headings h1 {
+        font-size: 35px;
+    }
+
+    .newsletter-para p {
+        font-size: 16px;
+    }
+
+    .newsletter-headings h1 {
+        font-size: 35px;
+    }
+
+    .newsletter-headings p {
+        font-size: 16px;
+    }
+
+    /* newsletter ends here   */
+
+
+
+    /* testimonial section starts here */
+    .testimonial-headings h1 {
+        font-size: 35px;
+    }
+
+    .testimonial-para p {
+        font-size: 16px;
+    }
+
+    .testimonial-headings h1 {
+        font-size: 35px;
+    }
+
+    .testimonial-headings p {
+        font-size: 16px;
+    }
+    /* testimonial section ends here */
 }
