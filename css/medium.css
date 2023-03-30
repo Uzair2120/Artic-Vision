@@ -199,5 +199,44 @@
         font-size: 16px;
         color: white;
     }
+
     /* our services section ends here  */
+
+
+
+
+    /* commitment section starts here */
+
+.commitment-headings h1 {
+        font-size: 35px;
+    }
+
+    .commitment-para p {
+        font-size: 16px;
+    }
+
+    .for-com-headings h1{
+        font-size: 35px;
+    }
+
+    .for-com-headings p {
+        font-size: 16px;
+    }
+
+    .commitment-row{
+        padding: 0px 80px;
+    }
+
+    .commitment-content{
+        padding: 0;
+    }
+
+    .commitment-row2{
+        padding: 0;
+    }
+
+    .commitment-rows{
+        padding: 0px 20px;
+    }
+    /* commitment section ends here */
 }

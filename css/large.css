@@ -23,7 +23,7 @@
 
 
     /* our products section  */
-    .our-headings h1{
+    .our-headings h1 {
         font-size: 35px;
     }
 
@@ -31,22 +31,23 @@
         font-size: 16px;
     }
 
-    .our-rowcontent h1{
+    .our-rowcontent h1 {
         font-size: 35px;
     }
 
-    .our-rowcontent p{
+    .our-rowcontent p {
         font-size: 16px;
     }
 
-    .our-rowcontent a{
+    .our-rowcontent a {
         font-size: 14px;
     }
+
     /* our products section ends here  */
 
 
 
-/* our services section  */
+    /* our services section  */
     .services-headings h1 {
         font-size: 35px;
     }
@@ -55,20 +56,42 @@
         font-size: 16px;
     }
 
-    .services-para{
+    .services-para {
         width: 102%;
     }
 
-    .services-headpara h1{
+    .services-headpara h1 {
         font-size: 35px;
     }
 
-    .services-cols{
+    .services-cols {
         padding: 0px 5px;
     }
 
-    .for-ourservices2{
+    .for-ourservices2 {
         top: 50%;
     }
+
     /* our services section ends here  */
+
+
+
+    /* commitment section starts here */
+    .commitment-headings h1 {
+        font-size: 35px;
+    }
+
+    .commitment-para p {
+        font-size: 16px;
+    }
+
+    .for-com-headings h1{
+        font-size: 35px;
+    }
+
+    .for-com-headings p {
+        font-size: 16px;
+    }
+
+    /* commitment section ends here */
 }

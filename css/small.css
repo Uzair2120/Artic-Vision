@@ -162,6 +162,7 @@
         margin: 0;
         width: 100%;
     }
+
     /* our product section ends here */
 
 
@@ -171,6 +172,7 @@
     #forth {
         padding-top: 40px;
     }
+
     .services-row {
         padding: 0px 20px;
     }
@@ -198,7 +200,7 @@
         padding: 0px 5px;
     }
 
-    .services-cols:not(:first-child){
+    .services-cols:not(:first-child) {
         margin-top: 35px;
     }
 
@@ -240,5 +242,57 @@
         font-size: 16px;
         color: white;
     }
+
     /* our services section ends here  */
+
+
+
+
+    /* commitment section starts here */
+
+    .commitment-headings h1 {
+        font-size: 35px;
+    }
+
+    .commitment-para p {
+        font-size: 16px;
+    }
+
+    .for-com-headings h1{
+        font-size: 35px;
+        margin: 25px 0px;
+    }
+
+    .for-com-headings p {
+        font-size: 16px;
+    }
+
+    .commitment-row{
+        padding: 0px 20px;
+    }
+    
+    .commitment-rows{
+        padding: 0;
+        margin-top: 40px;
+    }
+
+    #main5{
+        margin-top: 670px;
+    }
+
+    .commitment-para{
+        padding: 0;
+        margin-top: 15px;
+    }
+
+    .commitment-row2{
+        margin-top: 10px;
+    }
+
+    .commitment-content{
+        padding: 0;
+    }
+
+
+    /* commitment section ends here */
 }

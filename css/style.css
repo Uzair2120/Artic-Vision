@@ -573,12 +573,117 @@
     font-weight: 500;
 }
 
-
-
-
-
-
 /* our services section ends here */
+
+
+
+
+ /* commitment section starts here  */
+#main5{
+    /* border: 2px solid red; */
+    margin-top: 270px;
+    margin-bottom: 50px;
+}
+
+.for-commitment{
+    /* border: 2px solid green; */
+    height: 100%;
+}
+
+.commitment-row{
+    /* border: 2px solid yellowgreen; */
+    height: 100%;
+    padding: 0px 90px;
+}
+
+.commitment-head{
+    /* border: 2px solid red; */
+    height: 100%;
+    padding: 0;
+}
+
+.commitment-content{
+    /* border: 2px solid red; */
+    height: 100%;
+}
+
+.commitment-headings span {
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    color: rgb(110, 110, 110);
+}
+
+.commitment-headings h1 {
+    font-family: 'Bentham', serif;
+    font-size: 40px;
+    margin-top: 5px;
+    color: #333333;
+}
+
+.commitment-para {
+    /* border: 2px solid brown; */
+    width: 100%;
+    color: rgb(110, 110, 110);
+}
+
+.commitment-para p {
+    font-size: 18px;
+    font-family: 'Maven pro', sans-serif;
+    line-height: 30px;
+}
+
+.for-commitment2{
+    /* height: 500px; */
+}
+
+.commitment-row2{
+    /* border: 2px solid blue; */
+    height: 100%;
+    padding: 0px 10px;
+    margin-top: 90px;
+}
+
+.commitment-rows{
+    /* border :2px solid black; */
+    padding: 0px 30px;
+}
+
+.in-commitmentrows{
+    /* border: 2px solid goldenrod; */
+    height: 100%;
+    text-align: center;
+}
+
+.for-com-icons{
+    /* border: 1px solid black; */
+    display: inline-block;
+}
+
+.for-com-headings h1{
+    font-family: 'Bentham' ,  sans-serif;
+    color: #333333;
+    margin: 40px 0px;
+}
+
+.for-com-headings p{
+    font-family: 'Maven Pro' ,sans-serif;
+    font-size: 18px;
+    color: rgb(110, 110, 110);
+}
+
+.com2{
+    animation-delay: .2s;
+}
+.com3{
+    animation-delay: .4s;
+}
+.com4{
+    animation-delay: .6s;
+}
+
+
+
+ /* commitment section ends here  */
 
 
 
