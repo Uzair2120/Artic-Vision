@@ -1,0 +1,313 @@
+@media screen and (min-width:768px) and (max-width:991px) {
+    /* navbar starts here  */
+    .nav-row {
+        justify-content: space-between;
+    }
+
+    #main1 {
+        padding: 0px 20px;
+    }
+
+    .for-icons i {
+        margin: 5px 15px;
+        font-size: 24px;
+    }
+
+    .for-icons {
+        padding: 0;
+    }
+
+    .btn {
+        display: block;
+        height: 25px;
+        width: 25px;
+    }
+
+
+    #magnify {
+        display: none;
+    }
+
+    .for-logo img {
+        width: 115px;
+    }
+
+    .for-maincontent {
+        top: 30%;
+    }
+
+    .for-mainhead h1 {
+        font-size: 55px;
+    }
+
+    .for-menu ul {
+        display: block;
+        background-color: #EDEDEF;
+        padding: 0;
+        border-top: 1px solid rgba(182, 182, 182, 0.842);
+    }
+
+    .for-menu>ul>li {
+        display: block;
+        position: static;
+        height: auto;
+        padding: 10px 0px;
+        border-bottom: 1px solid rgba(182, 182, 182, 0.842);
+    }
+
+    .for-menu>ul>li::after {
+        content: " ";
+        height: 2px;
+        background-color: grey;
+        width: 100%;
+    }
+
+    .sub-about {
+        position: static;
+        margin-bottom: -10px;
+        border: none;
+        width: 100%;
+        display: none;
+    }
+
+    .for-menu ul li:hover .sub-about {
+        display: block;
+    }
+
+    .for-menu>ul>li>a {
+        width: 100%;
+        margin-left: 15px;
+    }
+
+    .for-menu>ul>li>a>i {
+        float: right;
+    }
+
+    .sub-ul li:not(:last-child) {
+        border-bottom: 1px solid rgba(182, 182, 182, 0.842);
+    }
+
+    .for-menu {
+        position: absolute;
+        left: -100%;
+        top: 90px;
+        padding: 0;
+    }
+
+    .sub-ul li {
+        padding: 8px 40px;
+    }
+
+    .for-menu-on {
+        left: 0;
+    }
+
+    .for-menu>ul>li>a {
+        width: 100%;
+        margin-left: 25px;
+    }
+
+    .for-menu>ul>li>a>i {
+        float: right;
+        margin-right: 30px;
+    }
+
+    .sub-ul li:hover {
+        background-color: #eef1f3;
+    }
+
+    /* navbar ends here  */
+
+
+
+    /* our products section  */
+    .our-headings h1 {
+        font-size: 35px;
+    }
+
+    .our-para p {
+        font-size: 16px;
+    }
+
+    .our-rowcontent h1 {
+        font-size: 35px;
+    }
+
+    .our-rowcontent p {
+        font-size: 16px;
+    }
+
+    .our-rowcontent a {
+        font-size: 14px;
+    }
+
+    /* our product section ends here */
+
+
+
+    /* our services section  */
+    .services-headings h1 {
+        font-size: 35px;
+    }
+
+    .services-para p {
+        font-size: 16px;
+        margin-top: -16px;
+    }
+
+    .services-para {
+        width: 102%;
+    }
+
+    .services-headpara h1 {
+        font-size: 35px;
+    }
+
+    .services-cols {
+        padding: 0px 5px;
+    }
+
+    .for-ourservices2 {
+        top: 50%;
+    }
+
+    .for-ourservices2 {
+        padding: 0px 25px;
+    }
+
+    .services-row {
+        padding: 0px 75px;
+    }
+
+    #main4 {
+        height: 600px;
+    }
+
+    .services-headpara {
+        left: 40px;
+    }
+
+    .services-headpara p {
+        margin-right: 75px;
+        text-align: center;
+    }
+
+    .services-headpara2 h1 {
+        font-size: 35px;
+    }
+
+    .services-headpara2 p {
+        font-family: 'Maven Pro', sans-serif;
+        font-size: 16px;
+        color: white;
+    }
+
+    /* our services section ends here  */
+
+
+
+
+    /* commitment section starts here */
+
+    .commitment-headings h1 {
+        font-size: 35px;
+    }
+
+    #main5 {
+        margin-top: 200px;
+    }
+
+    .commitment-para p {
+        font-size: 16px;
+    }
+
+    .for-com-headings h1 {
+        font-size: 35px;
+    }
+
+    .for-com-headings p {
+        font-size: 16px;
+    }
+
+    .commitment-row {
+        padding: 0px 80px;
+        padding-right: 25px;
+    }
+
+    .commitment-content {
+        padding: 0;
+    }
+
+    .commitment-row2 {
+        padding: 0;
+    }
+
+    .commitment-rows {
+        padding: 0px 20px;
+    }
+
+    /* commitment section ends here */
+
+
+
+    /* newsletter section here  */
+    .newsletter-headings h1 {
+        font-size: 35px;
+    }
+
+    .newsletter-para p {
+        font-size: 16px;
+    }
+
+    .newsletter-headings h1 {
+        font-size: 35px;
+    }
+
+    .newsletter-headings p {
+        font-size: 16px;
+    }
+
+    /* newsletter ends here  */
+
+
+
+
+    /* testimonial section starts here */
+    .testimonial-headings h1 {
+        font-size: 35px;
+    }
+
+    .testimonial-para p {
+        font-size: 16px;
+    }
+
+    .testimonial-headings h1 {
+        font-size: 35px;
+    }
+
+    .testimonial-headings p {
+        font-size: 16px;
+    }
+
+    /* testimonial section ends here */
+
+
+
+    /* footer section starts here  */
+    .contact {
+        margin-top: 0;
+    }
+
+    .menu-list ul li {
+        padding: 10px 25px;
+    }
+
+    .form {
+        padding: 0px 20px;
+    }
+
+    .for-address p {
+        margin-left: 0;
+    }
+    /* footer ends starts here  */
+}

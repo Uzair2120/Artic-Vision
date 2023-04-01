@@ -1,0 +1,400 @@
+@media screen and (min-width:576px) and (max-width:767px) {
+    /* navbar starss here  */
+    .for-logo img {
+        width: 115px;
+    }
+
+    #main1 {
+        padding: 0px 15px;
+    }
+
+    .for-mainhead h1 {
+        font-size: 50px;
+    }
+
+    .para p {
+        font-size: 16px;
+    }
+
+    .for-mainhead {
+        margin-left: 30px;
+    }
+
+    .for-maincontent {
+        top: 25%;
+    }
+
+    .for-menu {
+        position: absolute;
+        left: -100%;
+        top: 90px;
+        padding: 0;
+    }
+
+    .for-menu ul {
+        display: block;
+        background-color: #EDEDEF;
+        padding: 0;
+        border-top: 1px solid rgba(182, 182, 182, 0.842);
+    }
+
+    .for-menu-on {
+        left: 0;
+    }
+
+    .for-menu>ul>li>a {
+        width: 100%;
+        margin-left: 20px;
+    }
+
+    .for-menu>ul>li>a>i {
+        float: right;
+        margin-right: 25px;
+
+    }
+
+    #magnify {
+        display: none;
+    }
+
+    .btn {
+        display: block;
+        height: 25px;
+        width: 25px;
+    }
+
+    .for-icons i {
+        margin: 5px 15px;
+        font-size: 24px;
+    }
+
+    .for-icons {
+        padding: 0;
+    }
+
+    .for-menu>ul>li {
+        display: block;
+        position: static;
+        height: auto;
+        padding: 10px 0px;
+        border-bottom: 1px solid rgba(182, 182, 182, 0.842);
+    }
+
+    .sub-about {
+        position: static;
+        margin-bottom: -10px;
+        border: none;
+        width: 100%;
+        display: none;
+    }
+
+    .for-menu ul li:hover .sub-about {
+        display: block;
+    }
+
+    .sub-ul li {
+        padding: 8px 40px;
+    }
+
+    .sub-ul li:not(:last-child) {
+        border-bottom: 1px solid rgba(182, 182, 182, 0.842);
+    }
+
+    .sub-ul li:hover {
+        background-color: #eef1f3;
+    }
+
+    /* navbar ends here  */
+
+
+
+    /* our product section  */
+    .our-headings h1 {
+        font-size: 35px;
+    }
+
+    .our-para p {
+        font-size: 16px;
+    }
+
+    .our-rowcontent h1 {
+        font-size: 35px;
+    }
+
+    .our-rowcontent p {
+        font-size: 16px;
+    }
+
+    .our-rowcontent a {
+        font-size: 14px;
+    }
+
+    .our-row {
+        padding: 0px 30px;
+    }
+
+    .our-content {
+        margin-top: 25px;
+        padding: 0;
+    }
+
+    #main3 {
+        padding-top: 70px;
+    }
+
+    .for-ourproducts2 {
+        padding: 0;
+    }
+
+    .for-ourproducts3 {
+        padding: 0;
+        margin-top: 0;
+    }
+
+    .our-rows {
+        padding: 0;
+    }
+
+    .our-row2 {
+        margin: 0;
+        width: 100%;
+    }
+
+    .our-row3 {
+        margin: 0;
+        width: 100%;
+    }
+
+    /* our product section ends here */
+
+
+
+    /* our services section  */
+
+    #forth {
+        padding-top: 40px;
+    }
+
+    .services-row {
+        padding: 0px 20px;
+    }
+
+    .services-headings h1 {
+        font-size: 35px;
+    }
+
+    .services-para p {
+        font-size: 16px;
+        margin-top: -16px;
+    }
+
+    .services-para {
+        width: 100%;
+    }
+
+    .services-headpara h1 {
+        font-size: 35px;
+    }
+
+    .services-cols {
+        padding: 0px 5px;
+    }
+
+    .services-cols:not(:first-child) {
+        margin-top: 35px;
+    }
+
+    .for-ourservices2 {
+        top: 30%;
+    }
+
+    .for-ourservices2 {
+        padding: 0px 25px;
+    }
+
+    #main4 {
+        height: 950px;
+    }
+
+    .services-headpara {
+        left: 40px;
+    }
+
+    .services-headpara p {
+        text-align: center;
+    }
+
+    .services-content {
+        height: 100%;
+        position: absolute;
+        top: 150px;
+        padding: 0 20px;
+        left: 0;
+    }
+
+    .services-headpara2 h1 {
+        font-size: 35px;
+    }
+
+    .services-headpara2 p {
+        font-family: 'Maven Pro', sans-serif;
+        font-size: 16px;
+        color: white;
+    }
+
+    /* our services section ends here  */
+
+
+
+
+    /* commitment section starts here */
+
+    .commitment-headings h1 {
+        font-size: 35px;
+    }
+
+    .commitment-para p {
+        font-size: 16px;
+    }
+
+    .for-com-headings h1 {
+        font-size: 35px;
+        margin: 25px 0px;
+    }
+
+    .for-com-headings p {
+        font-size: 16px;
+    }
+
+    .commitment-row {
+        padding: 0px 20px;
+    }
+
+    .commitment-rows {
+        padding: 0;
+        margin-top: 40px;
+    }
+
+    #main5 {
+        margin-top: 670px;
+    }
+
+    .commitment-para {
+        padding: 0;
+        margin-top: 15px;
+    }
+
+    .commitment-row2 {
+        margin-top: 10px;
+    }
+
+    .commitment-content {
+        padding: 0;
+    }
+
+    /* commitment section ends here */
+
+
+
+
+    /* newsletter section here  */
+    .newsletter-headings h1 {
+        font-size: 35px;
+    }
+
+    .newsletter-para p {
+        font-size: 16px;
+        margin-top: 30px;
+    }
+
+    .newsletter-headings h1 {
+        font-size: 35px;
+    }
+
+    .newsletter-headings p {
+        font-size: 16px;
+    }
+
+    .newsletter-row {
+        padding: 48px 20px;
+    }
+
+    .newsletter-head {
+        padding: 0;
+    }
+
+    /* newsletter ends here  */
+
+
+
+    /* testimonial section starts here */
+    .testimonial-headings h1 {
+        font-size: 35px;
+    }
+
+    .testimonial-para p {
+        font-size: 16px;
+    }
+
+    .testimonial-headings h1 {
+        font-size: 35px;
+    }
+
+    .testimonial-headings p {
+        font-size: 16px;
+    }
+
+    .testimonial-row {
+        padding: 40px 20px;
+    }
+
+    .testimonial-head {
+        padding: 0;
+    }
+
+    .testimonial-para {
+        margin-top: 30px;
+    }
+
+    /* testimonial section ends here */
+
+
+
+    /* footer section starts here  */
+    .contact {
+        margin-top: 0;
+    }
+
+    .contact-rows ul {
+        padding: 0;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .menu-list ul li {
+        padding: 10px 25px;
+    }
+
+    .form {
+        padding: 0px 20px;
+    }
+
+    .for-address {
+        position: relative;
+    }
+
+    .for-address p {
+        margin-left: 0;
+        position: absolute;
+        top: 243%;
+        padding: 0px 40px;
+        text-align: center;
+    }
+
+    .col-12 {
+        text-align: center;
+        margin-top: 108px;
+    }
+    /* footer ends starts here  */
+
+}
