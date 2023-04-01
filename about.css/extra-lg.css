@@ -1,3 +1,27 @@
-@media screen and (min-width:1200px) and (max-width:1400px){
-    
+@media screen and (min-width:1200px) and (max-width:1400px) {
+
+    /* navbar starts here  */
+    .for-menu>ul>li {
+        padding: 10px 17px;
+    }
+
+    .for-icons i {
+        margin: 5px 15px;
+    }
+
+    /* navbar ends here  */
+
+
+
+
+    /* our history starts here  */
+    .his-cols h1 {
+        font-size: 35px;
+    }
+
+    .his-cols p {
+        font-size: 16px;
+    }
+
+    /* our history ends here  */
 }

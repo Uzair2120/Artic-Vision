@@ -1,5 +1,4 @@
-@media screen and (max-width:575px) {
-
+@media screen and (max-width:576px) {
     /* navbar starts here  */
     .for-logo {
         width: 50%;
@@ -139,84 +138,5 @@
     .tap-btn {
         left: 44%;
     }
-
     /* navbar ends here  */
-
-
-
-    /* our history starts here  */
-    .his-cols h1 {
-        font-size: 35px;
-    }
-
-    .his-cols p {
-        font-size: 16px;
-        line-height: 26px;
-    }
-
-    .history-row {
-        display: block;
-    }
-
-    #main3 {
-        padding: 50px 0px;
-    }
-
-    .for-history {
-        padding: 0 20px;
-    }
-
-    .his-cols:nth-child(1) {
-        padding-bottom: 25px;
-    }
-
-    .his-cols:nth-child(3) {
-        margin-top: 60px;
-    }
-
-    .his-cols:nth-child(4) {
-        padding-top: 30px;
-    }
-
-    /* our history ends here  */
-
-
-    /* footer section starts here  */
-    .contact {
-        margin-top: 0;
-    }
-
-    .contact-rows ul {
-        padding: 0;
-        justify-content: center;
-        flex-wrap: wrap;
-    }
-
-    .menu-list ul li {
-        padding: 10px 25px;
-    }
-
-    .form {
-        padding: 0px 20px;
-    }
-
-    .for-address {
-        position: relative;
-    }
-
-    .for-address p {
-        margin-left: 0;
-        position: absolute;
-        top: 243%;
-        padding: 0px 40px;
-        text-align: center;
-    }
-
-    .col-12 {
-        text-align: center;
-        margin-top: 108px;
-    }
-
-    /* footer ends starts here  */
-
 }

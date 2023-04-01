@@ -1,5 +1,4 @@
 @media screen and (min-width:768px) and (max-width:991px) {
-
     /* navbar starts here  */
     .nav-row {
         justify-content: space-between;
@@ -121,55 +120,26 @@
 
 
 
-    /* our history starts here  */
-
-    .for-history {
-        padding: 0 60px;
-    }
-
-    .his-cols h1 {
+    /* our products section  */
+    .our-headings h1 {
         font-size: 35px;
     }
 
-    .his-cols p {
+    .our-para p {
         font-size: 16px;
     }
 
-    .history-row {
-        grid-column-gap: 10px;
+    .our-rowcontent h1 {
+        font-size: 35px;
     }
 
-    .his-img {
-        height: 90%;
+    .our-rowcontent p {
+        font-size: 16px;
     }
 
-    .his-cols:nth-child(4) {
-        padding: 0 10px;
+    .our-rowcontent a {
+        font-size: 14px;
     }
 
-    .his-col3 .his-img {
-        height: 94%;
-    }
-
-    /* our history ends here  */
-
-
-    /* footer section starts here  */
-    .contact {
-        margin-top: 0;
-    }
-
-    .menu-list ul li {
-        padding: 10px 25px;
-    }
-
-    .form {
-        padding: 0px 20px;
-    }
-
-    .for-address p {
-        margin-left: 0;
-    }
-
-    /* footer ends starts here  */
+    /* our product section ends here */
 }

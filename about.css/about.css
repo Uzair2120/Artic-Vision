@@ -257,3 +257,302 @@
 }
 
 /* main image & content ends here  */
+
+
+
+
+/* Our history starts here  */
+#main3 {
+    /* border: 2px solid red; */
+    padding: 90px 0px;
+}
+
+#third {
+    /* border: 2px solid blue; */
+    height: 100%;
+}
+
+.for-history {
+    /* border: 2px solid green; */
+    height: 100%;
+    padding: 0px 90px;
+}
+
+.history-row {
+    /* border: 2px solid purple; */
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 50px;
+}
+
+
+.his-cols:nth-child(1) {
+    grid-row-start: 1;
+    grid-row-end: 4;
+    padding-bottom: 50px;
+}
+
+.his-cols:nth-child(2) {
+    grid-row-start: 1;
+    grid-row-end: 7;
+}
+
+.his-cols:nth-child(3) {
+    grid-row-start: 4;
+    grid-row-end: 10;
+    animation-delay: .2s;
+}
+
+.his-cols:nth-child(4) {
+    grid-row-start: 7;
+    grid-row-end: 10;
+    padding-top: 50px;
+}
+
+.his-cols h1 {
+    font-family: 'Bentham', sans-serif;
+    font-size: 40px;
+}
+
+.his-cols p {
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 18px;
+    color: rgb(116, 116, 116);
+    line-height: 30px;
+}
+
+.his-img {
+    overflow: hidden;
+}
+
+.his-img img {
+    height: 100%;
+    width: 100%;
+    transition: transform 1s;
+}
+
+.his-img img:hover {
+    transform: scale(1.1);
+}
+
+/* Our history ends here  */
+
+
+/* footer section starts here  */
+.contact {
+    display: flex;
+    justify-content: center;
+    height: 90px;
+    margin-top: 40px;
+}
+
+.contact img {
+    height: 140px;
+    width: 100px;
+}
+
+#main8 {
+    background-color: #3B3E45;
+}
+
+#eighth {
+    height: 100%;
+}
+
+.for-contact {
+    height: 100%;
+}
+
+.contact-row {
+    height: 100%;
+    padding: 70px 0px;
+    padding-bottom: 90px;
+}
+
+.social-icons img {
+    height: 20px;
+    width: 20px;
+    margin: 0px 10px;
+    filter: brightness(0) invert(1);
+    transition: filter .5s;
+}
+
+.social-icons img:hover {
+    filter: none;
+}
+
+.contact-rows {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-rows ul {
+    display: flex;
+    align-items: center;
+}
+
+.menu-list {
+    margin: 50px 0px;
+}
+
+.menu-list ul {
+    margin: 0;
+}
+
+.menu-list ul li {
+    list-style: none;
+    padding: 10px 30px;
+}
+
+.menu-list ul li a {
+    color: rgb(191, 191, 191);
+    font-family: 'Maven pro', sans-serif;
+    font-weight: bolder;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: color .4s;
+}
+
+.menu-list ul li a:hover {
+    color: #53A57D;
+}
+
+.menu-list ul p {
+    color: white;
+    display: flex;
+    align-items: center;
+    margin-bottom: 0;
+}
+
+.menu-list ul p i {
+    font-size: 4px;
+    color: rgb(191, 191, 191);
+}
+
+.message h1 {
+    font-family: 'Bentham', sans-serif;
+    color: white;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+.form {
+    padding: 0px 35px;
+    margin-top: 40px;
+}
+
+
+
+.in-form input {
+    height: fit-content;
+    font-family: 'Maven pro', sans-serif;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #717176;
+    width: 100%;
+    padding: 20px 5px;
+    color: rgb(194, 193, 193);
+}
+
+.form-btn {
+    margin-top: 15px;
+}
+
+.form-btn button {
+    background: transparent;
+    height: fit-content;
+    color: white;
+    text-transform: uppercase;
+    border: none;
+    outline: none;
+    padding: 5px 10px;
+    transition: box-shadow, margin .3s;
+}
+
+.form-btn button:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-top: 5px;
+}
+
+
+.footer-row {
+    padding: 20px 20px;
+    padding-top: 50px;
+}
+
+.footer-rows {
+    padding: 0;
+}
+
+.for-last-logo img {
+    height: 100px;
+    width: 130px;
+}
+
+.fa-location-dot,
+.fa-envelope,
+.fa-phone {
+    color: #9C9C9C;
+    margin-right: 10px;
+}
+
+.for-address span {
+    font-family: 'Maven pro', sans-serif;
+}
+
+.for-address p {
+    margin: 40px 0px;
+    margin-left: 30px;
+    font-size: 14px;
+    font-family: 'Maven pro', sans-serif;
+}
+
+.for-address p a {
+    font-family: 'Maven pro', sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+    color: black;
+}
+
+.for-address p a:hover {
+    color: #53A57D;
+}
+
+.for-number span a {
+    font-family: 'Maven pro', sans-serif;
+    text-decoration: none;
+    color: black;
+}
+
+.for-number span a:hover {
+    color: #53A57D;
+}
+
+.for-number p {
+    margin-top: 15px;
+}
+
+.for-number p a {
+    font-family: 'Maven pro', sans-serif;
+    text-decoration: none;
+    color: black;
+}
+
+.for-number p a:hover {
+    color: #53A57D;
+}
+
+.col-12 {
+    text-align: center;
+}
+
+.col-12 h5 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+/* footer section starts here  */

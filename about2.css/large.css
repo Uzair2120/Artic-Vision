@@ -1,7 +1,6 @@
 @media screen and (min-width:992px) and (max-width:1199px) {
-
-    /* navbar starts here  */
-    .for-logo img {
+     /* navbar starts here  */
+     .for-logo img {
         height: 100%;
         width: 115px;
     }
@@ -22,23 +21,5 @@
     #main1 {
         padding-right: 0px;
     }
-
     /* navbar ends here  */
-
-
-
-    /* our history starts here  */
-    .his-cols h1 {
-        font-size: 35px;
-    }
-
-    .his-cols p {
-        font-size: 16px;
-    }
-
-    .history-row {
-        grid-column-gap: 25px;
-    }
-
-    /* our history ends here  */
 }
