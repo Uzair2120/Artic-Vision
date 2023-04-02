@@ -1,0 +1,47 @@
+@media screen and (min-width:992px) and (max-width:1199px){
+     /* navbar starts here  */
+     .for-logo img {
+        height: 100%;
+        width: 115px;
+    }
+
+    .for-menu>ul>li>a {
+        font-size: 14px;
+    }
+
+    .for-menu>ul>li {
+        padding: 10px 11px;
+    }
+
+    .for-icons i {
+        margin: 5px 10px;
+        font-size: 18px;
+    }
+
+    #main1 {
+        padding-right: 0px;
+    }
+    /* navbar ends here  */
+
+
+
+
+    /* main content section starts here  */
+    .main-row h1{
+        font-size: 40px;
+    }
+
+    .main-row{
+        padding-bottom: 30px;
+    }
+
+    .main-row p{
+        font-size: 16px;
+    }
+
+    .brand h1{
+        font-size: 35px;
+    }
+
+    /* main content section ends here  */
+}

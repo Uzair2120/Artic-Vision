@@ -1,0 +1,301 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bentham&family=Catamaran:wght@200;300;400;500;600;700&family=DM+Sans:wght@400;500;700&family=Dancing+Script:wght@400;500;600&family=Jost:wght@200;300;400;500;600;700&family=Maven+Pro:wght@400;500;600&family=Montserrat:wght@100;200;300;400;500;600;700;800&family=PT+Sans:wght@400;700&family=Passions+Conflict&family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* nav bar starts here   */
+#main1 {
+    background-color: #EDEDEF;
+    padding: 0px 30px;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+}
+
+.nav-container {
+    height: 90px;
+}
+
+.row {
+    height: 100%;
+}
+
+.for-logo {
+    height: 100%;
+    padding: 0;
+}
+
+.for-logo img {
+    height: 100%;
+    width: 130px;
+}
+
+.for-menu {
+    justify-content: end;
+    transition: 0.4s;
+}
+
+.for-menu>ul {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: end;
+
+}
+
+.for-menu>ul>li {
+    list-style: none;
+    padding: 10px 20px;
+    position: relative;
+    height: 82px;
+    display: flex;
+    align-items: center;
+}
+
+.sub-about {
+    border-top: 3px solid #53A57D;
+    position: absolute;
+    z-index: 99;
+    top: 60px;
+    width: 220px;
+    background-color: white;
+    visibility: hidden;
+}
+
+.sub-ul {
+    display: block;
+    padding: 0;
+}
+
+.sub-ul li {
+    list-style: none;
+    padding: 8px 20px;
+    cursor: pointer;
+}
+
+.sub-ul li:hover {
+    background-color: #234E70;
+}
+
+.sub-ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: #234E70;
+}
+
+.sub-about ul li:hover .sub-items {
+    color: #53A57D;
+}
+
+.for-menu ul li:hover .sub-about {
+    transition: all .5s;
+    top: 82px;
+    visibility: visible;
+}
+
+.for-menu>ul>li>a {
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: #234E70;
+    font-size: 15px;
+}
+
+.for-menu>ul>li>a:hover {
+    color: #53A57D;
+}
+
+.for-menu>ul>li>a>i {
+    margin-left: 5px;
+    margin-top: 2px;
+}
+
+.for-icons {
+    align-items: center;
+    display: flex;
+    justify-content: end;
+}
+
+.for-icons i {
+    margin: 5px 20px;
+    font-size: 20px;
+    color: #234E70;
+}
+
+.for-icons i:hover {
+    color: #53A57D;
+}
+
+.btn {
+    display: none;
+    margin: 0px 10px;
+    background: transparent;
+    padding: 0;
+}
+
+.in-btn,
+.btn::before,
+.btn::after {
+    content: " ";
+    height: 5px;
+    background-color: #234E70;
+    display: block;
+    width: 25px;
+    border-radius: 3px;
+    transition: 0.4s;
+    margin-bottom: 3px;
+}
+
+.active-inbtn {
+    display: none;
+}
+
+.active-btn::before {
+    transform: rotate(-45deg) translate(-6px, 1px);
+}
+
+.active-btn::after {
+    transform: rotate(45deg) translate(-4px, 0px);
+}
+
+.sub-menu-active {
+    display: block;
+}
+
+/* nav bar ends here   */
+
+
+/* main content section starts here  */
+#main2{
+    /* border: 2px solid black; */
+    /* height: 800px; */
+    padding-top: 92px;
+}
+
+#second{
+    /* border: 2px solid red; */
+    height: 100%;
+}
+
+.for-maincontent2{
+    /* border: 2px solid blue; */
+    height: 100%;
+}
+
+.main-row{
+    /* border: 2px solid gold; */
+    background-image: url(https://cdn-hlngf.nitrocdn.com/lXCOfRJghXJPdtTyzcQluKpoYxMmxZOQ/assets/images/optimized/wp-content/uploads/2019/09/fc893802be5be8446c1b599589c9773c.Carpet-Tiles.jpg);
+    padding: 90px 80px;
+}
+
+.main-row span{
+    font-family: 'Maven Pro' , sans-serif;
+    color: white;
+    font-size: 16px;
+}
+
+.main-row h1{
+    font-family: 'Bentham' ,  sans-serif;
+    font-size: 60px;
+    color: white;
+    margin: 20px 0px;
+}
+
+.main-row p {
+    font-family: 'Maven Pro' , sans-serif;
+    width: 50%;
+    font-size: 18px;
+    line-height: 30px;
+    color: white;
+}
+
+.brand{
+    padding: 0px 80px;
+}
+
+.brand h1{
+    font-family: 'Bentham' ,  sans-serif;
+    font-size: 40px;
+}
+
+.for-brands{
+    /* height: 500px; */
+    /* border: 2px solid red; */
+    padding: 0px 80px;
+    height: 100%;
+}
+
+.in-brand-row{
+    /* border: 2px solid green; */
+    height: 100%;
+    position: relative;
+}
+
+.in-brand-row .img1{
+    position: absolute;
+    margin-top: 22%;
+    right: 0%;
+}
+
+.in-brand-row .img2{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+}
+
+.brands-pic-row {
+    /* border: 2px solid purple; */
+    height: 100%;
+    position: relative;
+    top: -100%;
+    padding: 40px;
+}
+
+.in-pic-row{
+    /* border: 2px solid rgb(0, 0, 0); */
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.brand-cols{
+    /* border: 2px solid palevioletred; */
+    height: 100%;
+    padding: 0px 10px;
+}
+
+.in-brand-cols{
+    position: relative;
+}
+
+.in-brand-cols img{
+    height: 100%;
+    width: 100%;
+}
+
+
+.in-brand-cols a{
+    position: absolute;
+    top: 35%;
+    left:8%;
+    font-family: 'PT Sans' ,  sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: rgb(51, 51, 51);
+    font-weight: bold;
+    font-size: 0.9vw;
+}
+
+.in-brand-cols a:hover{
+    color: #53A57D;
+}
+
+
+
+/* main content section ends here  */
