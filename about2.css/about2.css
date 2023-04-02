@@ -287,3 +287,335 @@
 }
 
 /* main image & content ends here  */
+
+
+/* Group section starts here  */
+
+#main3 {
+    padding: 100px 0px;
+}
+
+.for-group {
+    padding: 0px 90px;
+}
+
+.for-content h1 {
+    font-family: 'Bentham', serif;
+    font-size: 40px;
+}
+
+.for-content p {
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+    color: rgb(116, 116, 116);
+}
+
+.for-video {
+    display: flex;
+    align-items: center;
+
+}
+
+.video {
+    border: 2px solid;
+    height: 70%;
+    width: 100%;
+}
+
+.video iframe {
+    height: 100%;
+    width: 100%;
+}
+
+/* Group section ends here  */
+
+
+
+/* companies section starts here  */
+#main4 {
+    background-image: url('https://cdn-hlngf.nitrocdn.com/lXCOfRJghXJPdtTyzcQluKpoYxMmxZOQ/assets/images/optimized/wp-content/uploads/2019/10/d54a66b49f3488f04a272ccca4705765.pci-groups-bg.jpg');
+    background-size: 120%;
+}
+
+#forth {
+    height: 100%;
+    padding: 100px 0px;
+}
+
+.for-companies {
+    height: 100%;
+    padding: 0px 80px;
+}
+
+.company-row {
+    height: 100%;
+}
+
+.company-row2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.company-cols {
+    text-align: center;
+}
+
+.company-cols {
+    padding: 0px 30px;
+}
+
+.in-comp-cols img {
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+}
+
+.col-12 {
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.col-12 h1 {
+    font-family: 'Bentham', serif;
+    font-size: 40px;
+}
+
+.col-12 p {
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 18px;
+    color: rgb(116, 116, 116);
+}
+
+.company-cols h1 {
+    font-family: 'Bentham', serif;
+    font-size: 40px;
+    margin-top: 50px;
+}
+
+.company-cols p {
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 18px;
+    color: rgb(116, 116, 116);
+}
+
+/* companies section ends here  */
+
+
+/* footer section starts here  */
+.contact {
+    display: flex;
+    justify-content: center;
+    height: 90px;
+    margin-top: 40px;
+}
+
+.contact img {
+    height: 140px;
+    width: 100px;
+}
+
+#main8 {
+    background-color: #3B3E45;
+}
+
+#eighth {
+    height: 100%;
+}
+
+.for-contact {
+    height: 100%;
+}
+
+.contact-row {
+    height: 100%;
+    padding: 70px 0px;
+    padding-bottom: 90px;
+}
+
+.social-icons img {
+    height: 20px;
+    width: 20px;
+    margin: 0px 10px;
+    filter: brightness(0) invert(1);
+    transition: filter .5s;
+}
+
+.social-icons img:hover {
+    filter: none;
+}
+
+.contact-rows {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-rows ul {
+    display: flex;
+    align-items: center;
+}
+
+.menu-list {
+    margin: 50px 0px;
+}
+
+.menu-list ul {
+    margin: 0;
+}
+
+.menu-list ul li {
+    list-style: none;
+    padding: 10px 30px;
+}
+
+.menu-list ul li a {
+    color: rgb(191, 191, 191);
+    font-family: 'Maven pro', sans-serif;
+    font-weight: bolder;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: color .4s;
+}
+
+.menu-list ul li a:hover {
+    color: #53A57D;
+}
+
+.menu-list ul p {
+    color: white;
+    display: flex;
+    align-items: center;
+    margin-bottom: 0;
+}
+
+.menu-list ul p i {
+    font-size: 4px;
+    color: rgb(191, 191, 191);
+}
+
+.message h1 {
+    font-family: 'Bentham', sans-serif;
+    color: white;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+.form {
+    padding: 0px 35px;
+    margin-top: 40px;
+}
+
+
+
+.in-form input {
+    height: fit-content;
+    font-family: 'Maven pro', sans-serif;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #717176;
+    width: 100%;
+    padding: 20px 5px;
+    color: rgb(194, 193, 193);
+}
+
+.form-btn {
+    margin-top: 15px;
+}
+
+.form-btn button {
+    background: transparent;
+    height: fit-content;
+    color: white;
+    text-transform: uppercase;
+    border: none;
+    outline: none;
+    padding: 5px 10px;
+    transition: box-shadow, margin .3s;
+}
+
+.form-btn button:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-top: 5px;
+}
+
+
+.footer-row {
+    padding: 20px 20px;
+    padding-top: 50px;
+}
+
+.footer-rows {
+    padding: 0;
+}
+
+.for-last-logo img {
+    height: 100px;
+    width: 130px;
+}
+
+.fa-location-dot,
+.fa-envelope,
+.fa-phone {
+    color: #9C9C9C;
+    margin-right: 10px;
+}
+
+.for-address span {
+    font-family: 'Maven pro', sans-serif;
+}
+
+.for-address p {
+    margin: 40px 0px;
+    margin-left: 30px;
+    font-size: 14px;
+    font-family: 'Maven pro', sans-serif;
+}
+
+.for-address p a {
+    font-family: 'Maven pro', sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+    color: black;
+}
+
+.for-address p a:hover {
+    color: #53A57D;
+}
+
+.for-number span a {
+    font-family: 'Maven pro', sans-serif;
+    text-decoration: none;
+    color: black;
+}
+
+.for-number span a:hover {
+    color: #53A57D;
+}
+
+.for-number p {
+    margin-top: 15px;
+}
+
+.for-number p a {
+    font-family: 'Maven pro', sans-serif;
+    text-decoration: none;
+    color: black;
+}
+
+.for-number p a:hover {
+    color: #53A57D;
+}
+
+.col-12-2 {
+    text-align: center;
+}
+
+.col-12 h5 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+/* footer section starts here  */

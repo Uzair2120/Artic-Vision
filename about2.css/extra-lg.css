@@ -9,4 +9,30 @@
     }
     /* navbar ends here  */
     
+
+    /* group section starts here  */
+    .for-content h1{
+        font-size: 35px;
+    }
+
+    .for-content p{
+        font-size: 16px;
+    }
+
+    .video{
+        height: 250px;
+    }
+
+    .company-cols h1 {
+        font-size: 35px;
+    }
+
+    .company-cols p{
+        font-size: 16px;
+    }
+
+    .company-cols{
+        padding: 0px 20px;
+    }
+    /* group section ends here  */
 }

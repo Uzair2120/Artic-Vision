@@ -120,26 +120,65 @@
 
 
 
-    /* our products section  */
-    .our-headings h1 {
+    /* group section starts here  */
+    .for-content h1{
         font-size: 35px;
     }
 
-    .our-para p {
+    .for-content p{
         font-size: 16px;
     }
 
-    .our-rowcontent h1 {
+    .for-video {
+        height: 250px;
+        justify-content: center;
+    }
+
+    .video{
+        height: 100%;
+    width: 65%;
+    margin-top: 50px;
+    }
+
+    .company-cols:not(:first-child){
+        margin-top: 50px;
+    }
+
+    .company-cols h1 {
         font-size: 35px;
+        margin-top: 25px;
     }
 
-    .our-rowcontent p {
+    .company-cols p{
         font-size: 16px;
     }
 
-    .our-rowcontent a {
-        font-size: 14px;
+    .company-row2{
+        grid-template-columns: 1fr;
     }
 
-    /* our product section ends here */
+    .in-comp-cols img{
+        width: 70%;
+    }
+    /* group section ends here  */
+
+    
+
+    /* footer section starts here  */
+    .contact {
+        margin-top: 0;
+    }
+
+    .menu-list ul li {
+        padding: 10px 25px;
+    }
+
+    .form {
+        padding: 0px 20px;
+    }
+
+    .for-address p {
+        margin-left: 0;
+    }
+    /* footer ends starts here  */
 }
