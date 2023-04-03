@@ -29,3 +29,9 @@ window.addEventListener('scroll', function (b) {
     }
 })
 
+var search = document.getElementById("magnify");
+var bar = document.getElementById("search-bar");
+search.addEventListener('click', function(n){
+    bar.classList.toggle("active-search");
+})
+
