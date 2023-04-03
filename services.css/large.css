@@ -1,0 +1,44 @@
+@media screen and (min-width:992px) and (max-width:1199px) {
+
+    /* navbar starts here  */
+    .for-logo img {
+        height: 100%;
+        width: 115px;
+    }
+
+    .for-menu>ul>li>a {
+        font-size: 14px;
+    }
+
+    .for-menu>ul>li {
+        padding: 10px 11px;
+    }
+
+    .for-icons i {
+        margin: 5px 10px;
+        font-size: 18px;
+    }
+
+    #main1 {
+        padding-right: 0px;
+    }
+
+    /* navbar ends here  */
+
+
+
+    /* services section starts here  */
+    .service-cols1 p {
+        font-size: 16px;
+    }
+
+    .service-cols2 p {
+        font-size: 16px;
+    }
+
+    .service-cols3 p {
+        font-size: 16px;
+    }
+
+    /* services section ends here  */
+}

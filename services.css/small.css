@@ -1,0 +1,216 @@
+@media screen and (min-width:576px) and (max-width:767px) {
+
+    /* navbar starss here  */
+    .for-logo img {
+        width: 115px;
+    }
+
+    #main1 {
+        padding: 0px 15px;
+    }
+
+    .for-mainhead h1 {
+        font-size: 50px;
+    }
+
+    .para p {
+        font-size: 16px;
+    }
+
+    .for-mainhead {
+        margin-left: 30px;
+    }
+
+    .for-maincontent {
+        top: 25%;
+    }
+
+    .for-menu {
+        position: absolute;
+        left: -100%;
+        top: 90px;
+        padding: 0;
+    }
+
+    .for-menu ul {
+        display: block;
+        background-color: #EDEDEF;
+        padding: 0;
+        border-top: 1px solid rgba(182, 182, 182, 0.842);
+    }
+
+    .for-menu-on {
+        left: 0;
+    }
+
+    .for-menu>ul>li>a {
+        width: 100%;
+        margin-left: 20px;
+    }
+
+    .for-menu>ul>li>a>i {
+        float: right;
+        margin-right: 25px;
+
+    }
+
+    #magnify {
+        display: none;
+    }
+
+    .btn {
+        display: block;
+        height: 25px;
+        width: 25px;
+    }
+
+    .for-icons i {
+        margin: 5px 15px;
+        font-size: 24px;
+    }
+
+    .for-icons {
+        padding: 0;
+    }
+
+    .for-menu>ul>li {
+        display: block;
+        position: static;
+        height: auto;
+        padding: 10px 0px;
+        border-bottom: 1px solid rgba(182, 182, 182, 0.842);
+    }
+
+    .sub-about {
+        position: static;
+        margin-bottom: -10px;
+        border: none;
+        width: 100%;
+        display: none;
+    }
+
+    .for-menu ul li:hover .sub-about {
+        display: block;
+    }
+
+    .sub-ul li {
+        padding: 8px 40px;
+    }
+
+    .sub-ul li:not(:last-child) {
+        border-bottom: 1px solid rgba(182, 182, 182, 0.842);
+    }
+
+    .sub-ul li:hover {
+        background-color: #eef1f3;
+    }
+
+    /* navbar ends here  */
+
+
+
+
+    /* services section starts here  */
+    .service-cols1 h1 {
+        font-size: 40px;
+    }
+
+    .service-cols2 h1 {
+        font-size: 40px;
+    }
+
+    .service-cols3 h1 {
+        font-size: 40px;
+    }
+
+    .service-cols1 {
+        height: auto;
+    }
+
+    .service-cols2 {
+        height: auto;
+    }
+
+    .service-cols3 {
+        height: auto;
+    }
+
+    .service-cols1 p {
+        font-size: 16px;
+    }
+
+    .service-cols2 p {
+        font-size: 16px;
+    }
+
+    .service-cols3 p {
+        font-size: 16px;
+    }
+
+    .for-services {
+        padding: 30px 10px;
+    }
+
+    .services-row1 {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .services-row2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .services-row3 {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .height {
+        height: fit-content;
+        margin-bottom: 20px;
+    }
+
+    /* services section ends here  */
+
+
+
+    /* footer section starts here  */
+    .contact {
+        margin-top: 0;
+    }
+
+    .contact-rows ul {
+        padding: 0;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .menu-list ul li {
+        padding: 10px 25px;
+    }
+
+    .form {
+        padding: 0px 20px;
+    }
+
+    .for-address {
+        position: relative;
+    }
+
+    .for-address p {
+        margin-left: 0;
+        position: absolute;
+        top: 243%;
+        padding: 0px 40px;
+        text-align: center;
+    }
+
+    .col-12 {
+        text-align: center;
+        margin-top: 108px;
+    }
+
+    /* footer ends starts here  */
+
+}

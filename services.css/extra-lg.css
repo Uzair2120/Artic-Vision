@@ -1,0 +1,32 @@
+@media screen and (min-width:1200px) and (max-width:1400px) {
+
+    /* navbar starts here  */
+    .for-menu>ul>li {
+        padding: 10px 17px;
+    }
+
+    .for-icons i {
+        margin: 5px 15px;
+    }
+
+    /* navbar ends here  */
+
+
+
+    /* services section starts here  */
+
+    .service-cols1 p {
+        font-size: 16px;
+    }
+
+    .service-cols2 p {
+        font-size: 16px;
+    }
+
+    .service-cols3 p {
+        font-size: 16px;
+    }
+
+
+    /* services section ends here  */
+}
