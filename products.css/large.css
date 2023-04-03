@@ -79,5 +79,20 @@
     .product-head{
         padding: 25px 90px;
     }
+
+    .product-head h1{
+        font-size: 35px;
+    }
+    .product-content h1{
+        font-size: 35px;
+    }
+    
+    .product-content p{
+        font-size: 16px;
+    }
+    
+    .product-content a{
+        font-size: 16px;
+    }
     /* more products section ends here  */
 }

@@ -181,6 +181,21 @@
     .product-head{
         padding: 15px 55px;
     }
+
+    .product-head h1{
+        font-size: 35px;
+    }
+    .product-content h1{
+        font-size: 35px;
+    }
+    
+    .product-content p{
+        font-size: 16px;
+    }
+    
+    .product-content a{
+        font-size: 16px;
+    }
     /* more products section ends here  */
 
 
@@ -201,6 +216,8 @@
     .for-address p {
         margin-left: 0;
     }
+
+    
     /* footer ends starts here  */
 
 }
