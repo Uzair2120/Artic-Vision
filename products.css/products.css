@@ -172,78 +172,78 @@
 
 
 /* main content section starts here  */
-#main2{
+#main2 {
     /* border: 2px solid black; */
     /* height: 800px; */
     padding-top: 92px;
 }
 
-#second{
+#second {
     /* border: 2px solid red; */
     height: 100%;
 }
 
-.for-maincontent2{
+.for-maincontent2 {
     /* border: 2px solid blue; */
     height: 100%;
 }
 
-.main-row{
+.main-row {
     /* border: 2px solid gold; */
     background-image: url(https://cdn-hlngf.nitrocdn.com/lXCOfRJghXJPdtTyzcQluKpoYxMmxZOQ/assets/images/optimized/wp-content/uploads/2019/09/fc893802be5be8446c1b599589c9773c.Carpet-Tiles.jpg);
     padding: 90px 80px;
 }
 
-.main-row span{
-    font-family: 'Maven Pro' , sans-serif;
+.main-row span {
+    font-family: 'Maven Pro', sans-serif;
     color: white;
     font-size: 16px;
 }
 
-.main-row h1{
-    font-family: 'Bentham' ,  sans-serif;
+.main-row h1 {
+    font-family: 'Bentham', sans-serif;
     font-size: 60px;
     color: white;
     margin: 20px 0px;
 }
 
 .main-row p {
-    font-family: 'Maven Pro' , sans-serif;
+    font-family: 'Maven Pro', sans-serif;
     width: 50%;
     font-size: 18px;
     line-height: 30px;
     color: white;
 }
 
-.brand{
+.brand {
     padding: 0px 80px;
 }
 
-.brand h1{
-    font-family: 'Bentham' ,  sans-serif;
+.brand h1 {
+    font-family: 'Bentham', sans-serif;
     font-size: 40px;
 }
 
-.for-brands{
+.for-brands {
     /* height: 500px; */
     /* border: 2px solid red; */
     padding: 0px 80px;
     height: 100%;
 }
 
-.in-brand-row{
+.in-brand-row {
     /* border: 2px solid green; */
     height: 100%;
     position: relative;
 }
 
-.in-brand-row .img1{
+.in-brand-row .img1 {
     position: absolute;
     margin-top: 22%;
     right: 0%;
 }
 
-.in-brand-row .img2{
+.in-brand-row .img2 {
     position: absolute;
     top: 0%;
     left: 0%;
@@ -257,34 +257,35 @@
     padding: 40px;
 }
 
-.in-pic-row{
+.in-pic-row {
     /* border: 2px solid rgb(0, 0, 0); */
     height: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
-.brand-cols{
+.brand-cols {
     /* border: 2px solid palevioletred; */
     height: 100%;
     padding: 0px 10px;
 }
 
-.in-brand-cols{
+.in-brand-cols {
     position: relative;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
-.in-brand-cols img{
+.in-brand-cols img {
     height: 100%;
     width: 100%;
 }
 
 
-.in-brand-cols a{
+.in-brand-cols a {
     position: absolute;
     top: 35%;
-    left:8%;
-    font-family: 'PT Sans' ,  sans-serif;
+    left: 8%;
+    font-family: 'PT Sans', sans-serif;
     text-transform: uppercase;
     text-decoration: none;
     color: rgb(51, 51, 51);
@@ -292,10 +293,330 @@
     font-size: 0.9vw;
 }
 
-.in-brand-cols a:hover{
+.in-brand-cols a:hover {
     color: #53A57D;
+}
+
+.brand {
+    margin: 25px 0px;
+}
+
+/* main content section ends here  */
+
+
+
+/* more products section starts here  */
+#main3{
+    /* border: 2px solid red; */
+    padding: 90px 0px;
+    /* height: 800px; */
+}
+
+#third{
+    /* border: 2px solid green; */
+    height: 100%;
+}
+
+.for-more-products{
+    /* border: 2px solid rgb(92, 0, 128); */
+    height: 100%;
+}
+
+.products-row{
+    /* border: 2px solid rgb(0, 30, 128); */
+    height: 100%;;
+}
+
+.product-head{
+    /* border: 2px solid yellow; */
+    height: fit-content;
+    padding: 25px 90px;
+}
+
+.products-col{
+    /* border: 2px solid rgb(0, 30, 128); */
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.products-cols{
+    /* border: 2px solid black; */
+    height: 415px;
+    padding: 0px 10px;
+}
+
+.in-products-cols{
+    /* border: 2px solid red; */
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.in-products-cols img{
+    height: 100%;
+    width: 100%;
+    transition: transform .5s;
+}
+
+.in-products-cols img:hover{
+    transform: scale(1.1);
+}
+
+.product-content{
+    position: absolute;
+    top: 30px;
+    left: 10px;
+    padding: 0px 10px;
+}
+
+.product-head h1{
+    font-family: 'Bentham', sans-serif;
+    font-size: 40px;
+}
+.product-content h1{
+    font-family: 'Bentham', sans-serif;
+    font-size: 40px;
+}
+
+.product-content p{
+    font-family: 'Maven Pro' , sans-serif;
+    font-size: 18px;
+    margin-bottom: 25px;
+    padding-right: 20px;
+    color: rgb(116, 116, 116);
+}
+
+.product-content a{
+    font-family: 'PT Sans' , sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: rgb(51, 51, 51);
+}
+
+.product-content a:hover{
+    color: #53A57D;
+}
+/* more products section ends here  */
+
+
+
+/* footer section starts here  */
+.contact {
+    display: flex;
+    justify-content: center;
+    height: 90px;
+    margin-top: 40px;
+}
+
+.contact img {
+    height: 140px;
+    width: 100px;
+}
+
+#main8 {
+    background-color: #3B3E45;
+}
+
+#eighth {
+    height: 100%;
+}
+
+.for-contact {
+    height: 100%;
+}
+
+.contact-row {
+    height: 100%;
+    padding: 70px 0px;
+    padding-bottom: 150px;
+}
+
+.social-icons img {
+    height: 20px;
+    width: 20px;
+    margin: 0px 10px;
+    filter: brightness(0) invert(1);
+    transition: filter .5s;
+}
+
+.social-icons img:hover {
+    filter: none;
+}
+
+.contact-rows {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-rows ul {
+    display: flex;
+    align-items: center;
+}
+
+.menu-list {
+    margin: 50px 0px;
+}
+
+.menu-list ul {
+    margin: 0;
+}
+
+.menu-list ul li {
+    list-style: none;
+    padding: 10px 30px;
+}
+
+.menu-list ul li a {
+    color: rgb(191, 191, 191);
+    font-family: 'Maven pro', sans-serif;
+    font-weight: bolder;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: color .4s;
+}
+
+.menu-list ul li a:hover {
+    color: #53A57D;
+}
+
+.menu-list ul p {
+    color: white;
+    display: flex;
+    align-items: center;
+    margin-bottom: 0;
+}
+
+.menu-list ul p i {
+    font-size: 4px;
+    color: rgb(191, 191, 191);
+}
+
+.message h1 {
+    font-family: 'Bentham', sans-serif;
+    color: white;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+.form {
+    padding: 0px 35px;
+    margin-top: 40px;
 }
 
 
 
-/* main content section ends here  */
+.in-form input {
+    height: fit-content;
+    font-family: 'Maven pro', sans-serif;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #717176;
+    width: 100%;
+    padding: 20px 5px;
+    color: rgb(194, 193, 193);
+}
+
+.form-btn {
+    margin-bottom: 20px;
+}
+
+.form-btn button {
+    background: transparent;
+    height: fit-content;
+    color: white;
+    text-transform: uppercase;
+    border: none;
+    outline: none;
+    padding: 5px 10px;
+    transition: box-shadow, margin .3s;
+}
+
+.form-btn button:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-top: 5px;
+}
+
+
+.footer-row {
+    padding: 20px 20px;
+    padding-top: 50px;
+}
+
+.footer-rows {
+    padding: 0;
+}
+
+.for-last-logo img {
+    height: 100px;
+    width: 130px;
+}
+
+.fa-location-dot,
+.fa-envelope,
+.fa-phone {
+    color: #9C9C9C;
+    margin-right: 10px;
+}
+
+.for-address span {
+    font-family: 'Maven pro', sans-serif;
+}
+
+.for-address p {
+    margin: 40px 0px;
+    margin-left: 30px;
+    font-size: 14px;
+    font-family: 'Maven pro', sans-serif;
+}
+
+.for-address p a {
+    font-family: 'Maven pro', sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+    color: black;
+}
+
+.for-address p a:hover {
+    color: #53A57D;
+}
+
+.for-number span a {
+    font-family: 'Maven pro', sans-serif;
+    text-decoration: none;
+    color: black;
+}
+
+.for-number span a:hover {
+    color: #53A57D;
+}
+
+.for-number p {
+    margin-top: 15px;
+}
+
+.for-number p a {
+    font-family: 'Maven pro', sans-serif;
+    text-decoration: none;
+    color: black;
+}
+
+.for-number p a:hover {
+    color: #53A57D;
+}
+
+.col-12 {
+    text-align: center;
+}
+
+.col-12 h5 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+/* footer section ends here  */

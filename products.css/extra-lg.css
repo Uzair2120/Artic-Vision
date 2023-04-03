@@ -1,28 +1,52 @@
-@media screen and (min-width:1200px) and (max-width:1400px){
-     /* navbar starts here  */
-     .for-menu>ul>li {
+@media screen and (min-width:1200px) and (max-width:1400px) {
+
+    /* navbar starts here  */
+    .for-menu>ul>li {
         padding: 10px 17px;
     }
 
     .for-icons i {
         margin: 5px 15px;
     }
+
     /* navbar ends here  */
-    
+
 
 
     /* main content section starts here  */
-    .main-row{
+    .main-row {
         padding-bottom: 30px;
     }
 
-    .main-row p{
+    .main-row p {
         font-size: 16px;
     }
 
-    .brand h1{
+    .brand h1 {
         font-size: 35px;
     }
 
     /* main content ends starts here  */
+
+
+    /* more products section starts here  */
+    .product-head h1{
+        font-size: 35px;
+    }
+    .product-content h1{
+        font-size: 35px;
+    }
+    
+    .product-content p{
+        font-size: 16px;
+    }
+    
+    .product-content a{
+        font-size: 16px;
+    }
+
+    .product-head{
+        padding: 25px 90px;
+    }
+    /* more products section ends here  */
 }

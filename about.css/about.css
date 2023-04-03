@@ -367,7 +367,7 @@
 .contact-row {
     height: 100%;
     padding: 70px 0px;
-    padding-bottom: 90px;
+    padding-bottom: 150px;
 }
 
 .social-icons img {
@@ -458,7 +458,7 @@
 }
 
 .form-btn {
-    margin-top: 15px;
+    margin-top: 0px;
 }
 
 .form-btn button {
