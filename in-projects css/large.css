@@ -1,0 +1,95 @@
+@media screen and (min-width:992px) and (max-width:1199px) {
+
+    /* navbar starts here  */
+    .for-logo img {
+        height: 100%;
+        width: 115px;
+    }
+
+    .for-menu>ul>li>a {
+        font-size: 14px;
+    }
+
+    .for-menu>ul>li {
+        padding: 10px 11px;
+    }
+
+    .for-icons i {
+        margin: 5px 10px;
+        font-size: 18px;
+    }
+
+    #main1 {
+        padding-right: 0px;
+    }
+
+    /* navbar ends here  */
+
+
+
+
+    /* main content section starts here  */
+    .main-row h1 {
+        font-size: 47px;
+    }
+
+    .main-row {
+        padding-bottom: 30px;
+    }
+
+    .main-row p {
+        font-size: 16px;
+    }
+
+    .brand h1 {
+        font-size: 35px;
+    }
+
+    .in-pic-row {
+        grid-template-columns: 1fr 1fr;
+        grid-row-gap: 30px;
+    }
+
+    .in-brand-cols a {
+        font-size: 14px;
+    }
+
+    .img2 {
+        display: none;
+    }
+
+    .brands-pic-row {
+        padding: 0px 0px;
+    }
+
+    .in-brand-cols {
+        height: 400px;
+    }
+
+    /* main content section ends here  */
+
+    
+    /* projects divs starts here  */
+    .pro-content h1{
+        font-size: 35px;
+    }
+
+    .in-pro-cols{
+        height: 480px;
+    }
+
+    .pro-col1{
+        padding-right: 20px;
+    }
+    
+    .pro-col2{
+        padding-left: 20px;
+    }
+
+    .pro-content {
+        padding: 25px;
+    }
+    /* projects divs ends here  */
+
+
+}

@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bentham&family=Catamaran:wght@200;300;400;500;600;700&family=DM+Sans:wght@400;500;700&family=Dancing+Script:wght@400;500;600&family=Jost:wght@200;300;400;500;600;700&family=Maven+Pro:wght@400;500;600&family=Montserrat:wght@100;200;300;400;500;600;700;800&family=PT+Sans:wght@400;700&family=Passions+Conflict&family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
 
 
-
 * {
     margin: 0;
     padding: 0;
@@ -224,21 +223,20 @@
 /* nav bar ends here   */
 
 
-
 /* main image & content starts here  */
 #second {
     position: relative;
     z-index: 2;
     top: 0px;
     height: 100vh;
-    background-image: url('https://cdn-hlngf.nitrocdn.com/lXCOfRJghXJPdtTyzcQluKpoYxMmxZOQ/assets/images/optimized/wp-content/uploads/2019/09/361fb59bd2ec2e8e89753d0e030daa63.Services-Banner.jpg');
+    background-image: url('https://cdn-hlngf.nitrocdn.com/lXCOfRJghXJPdtTyzcQluKpoYxMmxZOQ/assets/images/optimized/wp-content/uploads/2019/08/caf8312ee6397d40fe53486f28c886d2.Market-Banner.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .for-maincontent {
     position: absolute;
-    top: 45%;
+    top: 35%;
     width: 100%;
 }
 
@@ -283,35 +281,6 @@
     margin: 0 5px;
 }
 
-.tap-btn {
-    position: absolute;
-    top: 88%;
-    left: 50%;
-    animation: bounce 0.4s infinite;
-    animation-iteration-count: 1s;
-}
-
-@keyframes bounce {
-    0% {
-        top: 88%;
-    }
-
-    50% {
-        top: 85%;
-    }
-
-    100% {
-        top: 88%;
-    }
-}
-
-.tap-btn img {
-    filter: invert(1);
-    height: 70px;
-    width: 50px;
-}
-
-
 
 .to-topbtn {
     position: fixed;
@@ -341,128 +310,77 @@
 
 
 
+/* our projects starts here */
 
-/* services section starts here  */
-
-#third {
-    height: 100%;
+.procontent-row{
+    padding: 90px 70px;
 }
 
-.for-services {
-    height: 100%;
-    padding: 30px 80px;
+.procontent-row p{
+    font-family: 'Maven Pro' , sans-serif;
+    font-size: 18px;
+    color: rgb(116, 116, 116);
 }
 
-.services-row1 {
-    height: 100%;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    margin: 40px 0px;
-
+.for-projects2{
+    padding: 0px 20px;
 }
 
-.service-cols1 {
-    height: 450px;
+.projectpics-rows{
+    margin-bottom: 20px;
 }
 
-.floor-img {
+.pics-cols{
+    padding: 0px 10px;
+}
+
+.in-pics-cols{
+    height: 555px;
+    overflow: hidden;
+    position: relative;
+}
+
+.in-pics-cols img{
     height: 100%;
     width: 100%;
+    transition: transform .9s;
 }
 
-.service-cols1 h1 {
-    font-family: 'Bentham', sans-serif;
-    font-size: 60px;
+.in-pics-cols:hover.in-pics-cols>img{
+    transform: scale(1.1);
 }
 
-.service-cols1 p {
-    font-family: 'Maven Pro', sans-serif;
+.heading-para{
+    position: absolute;
+    z-index: 3;
+    top: 0px;
+    left: 0px;
+    padding: 60px 40px;
+}
+
+.heading-para h1{
+    font-family: 'Bentham' , sans-serif;
+    color: rgb(51, 51, 51);
+    font-size: 40px;
+}
+
+.heading-para p{
+    font-family: 'Maven Pro' , sans-serif;
+    color: rgb(116, 116, 116);
     font-size: 18px;
 }
 
-.ser-col-2 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+.heading-para a{
+    font-family: 'PT Sans' , sans-serif;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(51, 51, 51);
 }
 
+/* our projects ends here */
 
-
-.diff-back {
-    background-color: #3B3E45;
-}
-
-.services-row2 {
-    height: 100%;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    margin: 40px 0px;
-
-}
-
-.service-cols2 {
-    height: 450px;
-}
-
-.floor-img {
-    height: 100%;
-    width: 100%;
-}
-
-.service-cols2 h1 {
-    font-family: 'Bentham', sans-serif;
-    font-size: 60px;
-    color: white;
-}
-
-.service-cols2 p {
-    font-family: 'Maven Pro', sans-serif;
-    font-size: 18px;
-    color: white;
-}
-
-.ser-col-2 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-
-
-.services-row3 {
-    height: 100%;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    margin: 40px 0px;
-
-}
-
-.service-cols3 {
-    height: 450px;
-}
-
-.floor-img {
-    height: 100%;
-    width: 100%;
-}
-
-.service-cols3 h1 {
-    font-family: 'Bentham', sans-serif;
-    font-size: 60px;
-}
-
-.service-cols3 p {
-    font-family: 'Maven Pro', sans-serif;
-    font-size: 18px;
-}
-
-.ser-col-2 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-/* services section ends here  */
 
 
 
@@ -682,4 +600,4 @@
     font-weight: 600;
 }
 
-/* footer section ends here  */
+/* footer section starts here  */

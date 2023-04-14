@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bentham&family=Catamaran:wght@200;300;400;500;600;700&family=DM+Sans:wght@400;500;700&family=Dancing+Script:wght@400;500;600&family=Jost:wght@200;300;400;500;600;700&family=Maven+Pro:wght@400;500;600&family=Montserrat:wght@100;200;300;400;500;600;700;800&family=PT+Sans:wght@400;700&family=Passions+Conflict&family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
 
-
-
 * {
     margin: 0;
     padding: 0;
@@ -224,245 +222,128 @@
 /* nav bar ends here   */
 
 
+/* main content section starts here  */
+#main2 {
+    /* border: 2px solid black; */
+    /* height: 800px; */
+    padding-top: 92px;
+}
 
-/* main image & content starts here  */
 #second {
+    /* border: 2px solid red; */
+    height: 100%;
+}
+
+.for-maincontent2 {
+    /* border: 2px solid blue; */
+    height: 100%;
+}
+
+.main-row {
+    /* border: 2px solid gold; */
+    background: #3C3E42;
+    padding: 90px 70px;
+    padding-bottom: 120px;
+}
+
+.main-row span {
+    font-family: 'Maven Pro', sans-serif;
+    color: white;
+    font-size: 16px;
+}
+
+.main-row h1 {
+    font-family: 'Bentham', sans-serif;
+    font-size: 60px;
+    color: white;
+    margin: 20px 0px;
+    line-height: 55px;
+}
+
+.main-row p {
+    font-family: 'Maven Pro', sans-serif;
+    width: 50%;
+    font-size: 18px;
+    line-height: 30px;
+    color: white;
+}
+
+/* main content section ends here  */
+
+
+/* projects divs starts here  */
+#main3{
+    padding: 60px 0px;
+}
+
+#third{
+    height: 100%;
+}
+
+.for-projects{
+    height: 100%;
+    padding: 0px 80px;
+}
+
+.projects-row{
+    height: 100%;
+}
+
+.project-cols{
+    height: 100%;
+    margin-bottom: 30px;
+}
+
+.in-pro-cols{
+    height: 100%;
+    height: 550px;
+    overflow: hidden;
     position: relative;
-    z-index: 2;
-    top: 0px;
-    height: 100vh;
-    background-image: url('https://cdn-hlngf.nitrocdn.com/lXCOfRJghXJPdtTyzcQluKpoYxMmxZOQ/assets/images/optimized/wp-content/uploads/2019/09/361fb59bd2ec2e8e89753d0e030daa63.Services-Banner.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
-.for-maincontent {
-    position: absolute;
-    top: 45%;
+.pro-col1{
+    padding-right: 15px;
+}
+
+.pro-col2{
+    padding-left: 15px;
+    animation-delay: .2s;
+}
+
+.in-pro-cols img{
     width: 100%;
+    height: 100%;
+    transition: transform 1s;
 }
 
-.for-mainhead {
-    margin-left: 120px;
+.in-pro-cols:hover.in-pro-cols img{
+    transform: scale(1.1);
 }
 
-.for-mainhead h1 {
-    font-family: 'Bentham', serif;
-    font-size: 60px;
-    line-height: 50px;
+.pro-content{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding:  50px;
 }
 
-.para {
-    width: 400px;
-    margin-top: 40px;
+.pro-content h1{
+    font-family: 'Bentham' , sans-serif;
+    color: rgb(51, 51, 51);
+    font-size: 40px;
+    margin-bottom: 25px;
 }
 
-.para p {
-    font-size: 18px;
-}
-
-.seemore {
-    margin-top: 40px;
-}
-
-.see-more {
-    font-size: 15px;
-    font-family: 'Monteserrat', sans-serif;
-    font-weight: 600;
+.pro-content a{
+    font-family: 'PT Sans' , sans-serif;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: bold;
     text-decoration: none;
-    color: #234E70;
-    letter-spacing: -1px;
-    word-spacing: 2px;
+    color: rgb(51, 51, 51);
 }
+/* projects divs ends here  */
 
-.see-more:hover {
-    color: #53A57D;
-}
-
-.seemore i {
-    margin: 0 5px;
-}
-
-.tap-btn {
-    position: absolute;
-    top: 88%;
-    left: 50%;
-    animation: bounce 0.4s infinite;
-    animation-iteration-count: 1s;
-}
-
-@keyframes bounce {
-    0% {
-        top: 88%;
-    }
-
-    50% {
-        top: 85%;
-    }
-
-    100% {
-        top: 88%;
-    }
-}
-
-.tap-btn img {
-    filter: invert(1);
-    height: 70px;
-    width: 50px;
-}
-
-
-
-.to-topbtn {
-    position: fixed;
-    right: 1%;
-    top: 96%;
-    display: none;
-}
-
-.to-topbtn button {
-    padding: 7px 17px;
-    border-radius: 5px 5px 0px 0px;
-    background-color: #333;
-    cursor: pointer;
-    border: none;
-}
-
-.to-topbtn button i {
-    color: white;
-    font-size: 18px;
-}
-
-.to-topbtn button:hover {
-    background-color: #53A57D;
-}
-
-/* main image & content ends here  */
-
-
-
-
-/* services section starts here  */
-
-#third {
-    height: 100%;
-}
-
-.for-services {
-    height: 100%;
-    padding: 30px 80px;
-}
-
-.services-row1 {
-    height: 100%;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    margin: 40px 0px;
-
-}
-
-.service-cols1 {
-    height: 450px;
-}
-
-.floor-img {
-    height: 100%;
-    width: 100%;
-}
-
-.service-cols1 h1 {
-    font-family: 'Bentham', sans-serif;
-    font-size: 60px;
-}
-
-.service-cols1 p {
-    font-family: 'Maven Pro', sans-serif;
-    font-size: 18px;
-}
-
-.ser-col-2 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-
-
-.diff-back {
-    background-color: #3B3E45;
-}
-
-.services-row2 {
-    height: 100%;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    margin: 40px 0px;
-
-}
-
-.service-cols2 {
-    height: 450px;
-}
-
-.floor-img {
-    height: 100%;
-    width: 100%;
-}
-
-.service-cols2 h1 {
-    font-family: 'Bentham', sans-serif;
-    font-size: 60px;
-    color: white;
-}
-
-.service-cols2 p {
-    font-family: 'Maven Pro', sans-serif;
-    font-size: 18px;
-    color: white;
-}
-
-.ser-col-2 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-
-
-.services-row3 {
-    height: 100%;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    margin: 40px 0px;
-
-}
-
-.service-cols3 {
-    height: 450px;
-}
-
-.floor-img {
-    height: 100%;
-    width: 100%;
-}
-
-.service-cols3 h1 {
-    font-family: 'Bentham', sans-serif;
-    font-size: 60px;
-}
-
-.service-cols3 p {
-    font-family: 'Maven Pro', sans-serif;
-    font-size: 18px;
-}
-
-.ser-col-2 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-/* services section ends here  */
 
 
 
@@ -585,7 +466,7 @@
 }
 
 .form-btn {
-    margin-top: 0px;
+    margin-bottom: 20px;
 }
 
 .form-btn button {

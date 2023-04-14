@@ -1,0 +1,226 @@
+@media screen and (min-width:768px) and (max-width:991px) {
+
+    /* navbar starts here  */
+    .nav-row {
+        justify-content: space-between;
+    }
+
+    #main1 {
+        padding: 0px 20px;
+    }
+
+    .for-icons i {
+        margin: 5px 15px;
+        font-size: 24px;
+    }
+
+    .for-icons {
+        padding: 0;
+    }
+
+    .btn {
+        display: block;
+        height: 25px;
+        width: 25px;
+    }
+
+
+    #magnify {
+        display: none;
+    }
+
+    .for-logo img {
+        width: 115px;
+    }
+
+    .for-maincontent {
+        top: 30%;
+    }
+
+    .for-mainhead h1 {
+        font-size: 55px;
+    }
+
+    .for-menu ul {
+        display: block;
+        background-color: #EDEDEF;
+        padding: 0;
+        border-top: 1px solid rgba(182, 182, 182, 0.842);
+    }
+
+    .for-menu>ul>li {
+        display: block;
+        position: static;
+        height: auto;
+        padding: 10px 0px;
+        border-bottom: 1px solid rgba(182, 182, 182, 0.842);
+    }
+
+    .for-menu>ul>li::after {
+        content: " ";
+        height: 2px;
+        background-color: grey;
+        width: 100%;
+    }
+
+    .sub-about {
+        position: static;
+        margin-bottom: -10px;
+        border: none;
+        width: 100%;
+        display: none;
+    }
+
+    .for-menu ul li:hover .sub-about {
+        display: block;
+    }
+
+    .for-menu>ul>li>a {
+        width: 100%;
+        margin-left: 15px;
+    }
+
+    .for-menu>ul>li>a>i {
+        float: right;
+    }
+
+    .sub-ul li:not(:last-child) {
+        border-bottom: 1px solid rgba(182, 182, 182, 0.842);
+    }
+
+    .for-menu {
+        position: absolute;
+        left: -100%;
+        top: 90px;
+        padding: 0;
+    }
+
+    .sub-ul li {
+        padding: 8px 40px;
+    }
+
+    .for-menu-on {
+        left: 0;
+    }
+
+    .for-menu>ul>li>a {
+        width: 100%;
+        margin-left: 25px;
+    }
+
+    .for-menu>ul>li>a>i {
+        float: right;
+        margin-right: 30px;
+    }
+
+    .sub-ul li:hover {
+        background-color: #eef1f3;
+    }
+
+    /* navbar ends here  */
+
+
+
+    /* main content section starts here  */
+    .main-row h1 {
+        font-size: 40px;
+        line-height: 40px;
+    }
+
+    .main-row {
+        padding: 90px 50px;
+        padding-bottom: 30px;
+    }
+
+    .main-row p {
+        font-size: 16px;
+        width: 75%;
+    }
+
+    .brand {
+        padding: 0px 35px;
+    }
+
+    .for-brands {
+        padding: 0px 45px;
+    }
+
+    .brand h1 {
+        font-size: 35px;
+    }
+
+    .in-pic-row {
+        grid-template-columns: 1fr 1fr;
+        grid-row-gap: 40px;
+    }
+
+    .in-brand-cols a {
+        font-size: 14px;
+    }
+
+    .img2 {
+        display: none;
+    }
+
+    .brands-pic-row {
+        padding: 0px 0px;
+    }
+
+    .in-brand-cols {
+        height: 350px;
+    }
+
+    /* main content section ends here  */
+
+
+
+    /* projects divs starts here  */
+    .pro-content h1{
+        font-size: 35px;
+    }
+
+    .in-pro-cols{
+        height: 350px;
+    }
+
+    .pro-col1{
+        padding-right: 15px;
+    }
+    
+    .pro-col2{
+        padding-left: 15px;
+    }
+
+    .for-projects{
+        padding: 0px 50px;
+    }
+
+    .pro-content {
+        padding: 25px;
+    }
+    /* projects divs ends here  */
+
+
+
+
+    /* footer section starts here  */
+    .contact {
+        margin-top: 0;
+    }
+
+    .menu-list ul li {
+        padding: 10px 25px;
+    }
+
+    .form {
+        padding: 0px 20px;
+    }
+
+    .for-address p {
+        margin-left: 0;
+    }
+
+
+    /* footer ends starts here  */
+
+}

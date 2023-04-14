@@ -1,0 +1,35 @@
+@media screen and (min-width:1200px) and (max-width:1400px) {
+
+    /* navbar starts here  */
+    .for-menu>ul>li {
+        padding: 10px 17px;
+    }
+
+    .for-icons i {
+        margin: 5px 15px;
+    }
+
+    /* navbar ends here  */
+
+
+    /* our projects starts here  */
+    .procontent-row p{
+        font-size: 16px;
+    }
+
+    .heading-para h1{
+        font-size: 35px;
+    }
+    
+    .heading-para p{
+        font-size: 16px;
+    }
+
+    .in-pics-cols{
+        height: 400px;
+    }
+    /* our projects ends here  */
+
+
+    
+}

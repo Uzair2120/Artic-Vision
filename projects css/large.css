@@ -1,0 +1,51 @@
+@media screen and (min-width:992px) and (max-width:1199px) {
+
+    /* navbar starts here  */
+    .for-logo img {
+        height: 100%;
+        width: 115px;
+    }
+
+    .for-menu>ul>li>a {
+        font-size: 14px;
+    }
+
+    .for-menu>ul>li {
+        padding: 10px 11px;
+    }
+
+    .for-icons i {
+        margin: 5px 10px;
+        font-size: 18px;
+    }
+
+    #main1 {
+        padding-right: 0px;
+    }
+
+    /* navbar ends here  */
+
+
+    /* our projects starts here  */
+    .procontent-row p{
+        font-size: 16px;
+    }
+
+    .procontent-row{
+        padding: 50px;
+    }
+
+    .heading-para h1{
+        font-size: 35px;
+    }
+    
+    .heading-para p{
+        font-size: 16px;
+    }
+    .in-pics-cols{
+        height: 400px;
+    }
+    /* our projects ends here  */
+
+    
+}
